@@ -1,0 +1,306 @@
+{
+    "data": [
+        {
+            "author_id": "47447456",
+            "conversation_id": "1374403479985299465",
+            "created_at": "2021-03-23T16:51:39.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 67,
+                        "start": 62,
+                        "tag": "Suez"
+                    },
+                    {
+                        "end": 74,
+                        "start": 68,
+                        "tag": "Egypt"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 18,
+                        "start": 3,
+                        "username": "NoonsiteEditor"
+                    }
+                ]
+            },
+            "id": "1374403479985299465",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 2
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374398159753941004",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @NoonsiteEditor: Game changer for those yachts heading for #Suez #Egypt - On 1 March, 2021, a decision was made by the Red Sea Ports Aut\u2026"
+        },
+        {
+            "attachments": {
+                "media_keys": [
+                    "3_1373916877991251970"
+                ]
+            },
+            "author_id": "1360763837935411200",
+            "conversation_id": "1374402738600124417",
+            "created_at": "2021-03-23T16:48:42.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 58,
+                        "normalized_text": "Panam\u00e1",
+                        "probability": 0.7884,
+                        "start": 53,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 19,
+                        "start": 3,
+                        "username": "F_Sanchez_Drago"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "pic.twitter.com/vf9iZz9sKN",
+                        "end": 112,
+                        "expanded_url": "https://twitter.com/F_Sanchez_Drago/status/1373916910912344064/photo/1",
+                        "start": 89,
+                        "url": "https://t.co/vf9iZz9sKN"
+                    }
+                ]
+            },
+            "id": "1374402738600124417",
+            "lang": "es",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 4
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1373916910912344064",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @F_Sanchez_Drago: Canal de Suez, de la Mancha, de Panam\u00e1 y de Drag\u00f3. Cr\u00facenlo a nado. https://t.co/vf9iZz9sKN"
+        },
+        {
+            "author_id": "2562716508",
+            "conversation_id": "1374399015094087683",
+            "created_at": "2021-03-23T16:33:54.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 42,
+                        "normalized_text": "Canal de Suez",
+                        "probability": 0.3859,
+                        "start": 30,
+                        "type": "Other"
+                    }
+                ],
+                "urls": [
+                    {
+                        "description": "El Canal de Suez es una de las mayores obras de ingenier\u00eda de la historia. Fue olvidado durante siglos, hasta que un empresario franc\u00e9s lo rescat\u00f3...",
+                        "display_url": "cinconoticias.com/intrincada-his\u2026",
+                        "end": 109,
+                        "expanded_url": "https://www.cinconoticias.com/intrincada-historia-canal-de-suez/",
+                        "images": [
+                            {
+                                "height": 601,
+                                "url": "https://pbs.twimg.com/news_img/1376453824978821120/0zGCvtgE?format=jpg&name=orig",
+                                "width": 1068
+                            },
+                            {
+                                "height": 150,
+                                "url": "https://pbs.twimg.com/news_img/1376453824978821120/0zGCvtgE?format=jpg&name=150x150",
+                                "width": 150
+                            }
+                        ],
+                        "start": 86,
+                        "status": 200,
+                        "title": "La intrincada historia del Canal de Suez: desde los faraones hasta nuestros d\u00edas",
+                        "unwound_url": "https://www.cinconoticias.com/intrincada-historia-canal-de-suez/",
+                        "url": "https://t.co/JTvpnRPAYC"
+                    }
+                ]
+            },
+            "id": "1374399015094087683",
+            "lang": "es",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 1,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1
+            },
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "\ud83d\udcfa La intrincada historia del Canal de Suez: desde los faraones hasta nuestros d\u00edas... https://t.co/JTvpnRPAYC"
+        },
+        {
+            "attachments": {
+                "media_keys": [
+                    "3_1374397606382637069"
+                ]
+            },
+            "author_id": "472837576",
+            "conversation_id": "1374398159753941004",
+            "created_at": "2021-03-23T16:30:31.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 124,
+                        "normalized_text": "Red Sea Ports Authority",
+                        "probability": 0.6576,
+                        "start": 102,
+                        "type": "Organization"
+                    },
+                    {
+                        "end": 214,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.5449,
+                        "start": 205,
+                        "type": "Place"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "end": 47,
+                        "start": 42,
+                        "tag": "Suez"
+                    },
+                    {
+                        "end": 54,
+                        "start": 48,
+                        "tag": "Egypt"
+                    },
+                    {
+                        "end": 252,
+                        "start": 234,
+                        "tag": "princeoftheredsea"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "pic.twitter.com/qKsXtOgahg",
+                        "end": 276,
+                        "expanded_url": "https://twitter.com/NoonsiteEditor/status/1374398159753941004/photo/1",
+                        "start": 253,
+                        "url": "https://t.co/qKsXtOgahg"
+                    }
+                ]
+            },
+            "id": "1374398159753941004",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 6,
+                "quote_count": 1,
+                "reply_count": 1,
+                "retweet_count": 2
+            },
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "Game changer for those yachts heading for #Suez #Egypt - On 1 March, 2021, a decision was made by the Red Sea Ports Authority to increase the Sailing permit (Port Clearance) fees for yachts transiting the Suez Canal from $60 to $930! #princeoftheredsea https://t.co/qKsXtOgahg"
+        },
+        {
+            "author_id": "1166962041590046720",
+            "conversation_id": "1374397015086395393",
+            "created_at": "2021-03-23T16:28:50.000Z",
+            "id": "1374397736376668162",
+            "in_reply_to_user_id": "1166962041590046720",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 2,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374397015086395393",
+                    "type": "replied_to"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "He literally recreated a pic of an isr*eli soldier with a gun in the suez canal...."
+        },
+        {
+            "author_id": "1195529461573148673",
+            "conversation_id": "1374394943876173826",
+            "created_at": "2021-03-23T16:17:44.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 27,
+                        "normalized_text": "US",
+                        "probability": 0.9653,
+                        "start": 26,
+                        "type": "Place"
+                    },
+                    {
+                        "end": 70,
+                        "normalized_text": "Taiwan",
+                        "probability": 0.9809,
+                        "start": 65,
+                        "type": "Place"
+                    },
+                    {
+                        "end": 102,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.4303,
+                        "start": 93,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 17,
+                        "start": 3,
+                        "username": "US_China_Menu"
+                    }
+                ]
+            },
+            "id": "1374394943876173826",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 11
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374069923819888640",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @US_China_Menu: If the US makes a strategic miscalculation on Taiwan, it will be what the Suez Canal was to the British empire.\nhttps://\u2026"
+        }
+    ],
+    "meta": {
+        "newest_id": "1374403479985299465",
+        "oldest_id": "1374394943876173826",
+        "result_count": 6
+    }
+}

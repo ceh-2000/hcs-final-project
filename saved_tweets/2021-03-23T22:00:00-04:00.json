@@ -1,0 +1,4412 @@
+{
+    "data": [
+        {
+            "author_id": "174920833",
+            "conversation_id": "1374556569426227204",
+            "created_at": "2021-03-24T02:59:58.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "KhaledEibid"
+                    }
+                ]
+            },
+            "id": "1374556569426227204",
+            "lang": "ar",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 4
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374555375404511233",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @KhaledEibid: \u0646\u0627\u0642\u0644\u0629 \u0627\u0644\u062d\u0627\u0648\u064a\u0627\u062a (\u0627\u064a\u0641\u0631 \u062c\u0631\u064a\u0646) \u062c\u0646\u062d\u062a \u0628\u0627\u0644\u0639\u0631\u0636 \u0648\u0639\u0637\u0644\u062a \u0627\u0644\u0645\u0644\u0627\u062d\u0629 \u0648\u0645\u0646 \u0627\u0644\u0645\u0646\u062a\u0638\u0631 \u0627\u0646 \u064a\u0633\u062a\u0645\u0631 \u062a\u0639\u0637\u0644 \u0627\u0644\u0645\u0644\u0627\u062d\u0629 \u064a\u0648\u0645\u064a\u0646 \u0641\u064a \u0642\u0646\u0627\u0629 \u0627\u0644\u0633\u0648\u064a\u0633 \n\u0627\u0646\u0638\u0631 \u0627\u0644\u064a \u062d\u062c\u0645\u2026"
+        },
+        {
+            "author_id": "19808555",
+            "conversation_id": "1374556568566460416",
+            "created_at": "2021-03-24T02:59:58.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556568566460416",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "172254012",
+            "conversation_id": "1374556567035592708",
+            "created_at": "2021-03-24T02:59:58.000Z",
+            "entities": {
+                "urls": [
+                    {
+                        "display_url": "ahlam-sa.com/dana/?p=288001",
+                        "end": 88,
+                        "expanded_url": "https://ahlam-sa.com/dana/?p=288001",
+                        "start": 65,
+                        "url": "https://t.co/mpTDgcFeup"
+                    }
+                ]
+            },
+            "id": "1374556567035592708",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "reply_settings": "everyone",
+            "source": "ahlam ahlam",
+            "text": "Oil Swings on Suez Canal Blockage After Demand-Driven Sell-Off - https://t.co/mpTDgcFeup"
+        },
+        {
+            "author_id": "28684838",
+            "conversation_id": "1374556561431949314",
+            "created_at": "2021-03-24T02:59:56.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 59,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.427,
+                        "start": 50,
+                        "type": "Place"
+                    }
+                ]
+            },
+            "id": "1374556561431949314",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 15,
+                "quote_count": 1,
+                "reply_count": 3,
+                "retweet_count": 1
+            },
+            "reply_settings": "everyone",
+            "source": "TweetDeck",
+            "text": "Me, the captain of a ship I just got stuck in the Suez Canal, just wandering around on the deck pushing on stuff and shrugging apologetically to the ships around me."
+        },
+        {
+            "author_id": "249855809",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Traffic",
+                        "id": "1037076073719025664",
+                        "name": "Traffic"
+                    }
+                }
+            ],
+            "conversation_id": "1374556556109381636",
+            "created_at": "2021-03-24T02:59:55.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 34,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.5659,
+                        "start": 25,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 19,
+                        "start": 3,
+                        "username": "TwinTurboCe1ica"
+                    }
+                ]
+            },
+            "id": "1374556556109381636",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 9
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374519723602284546",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @TwinTurboCe1ica: The Suez Canal, one of the most important shipping lanes in the world, is currently blocked. Just a small traffic jam\u2026"
+        },
+        {
+            "author_id": "19096689",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations",
+                        "id": "66",
+                        "name": "Interests and Hobbies Category"
+                    },
+                    "entity": {
+                        "description": "Generic Food",
+                        "id": "824777229892661248",
+                        "name": "Generic Food"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Seafood",
+                        "id": "825065539378688000",
+                        "name": "Seafood"
+                    }
+                }
+            ],
+            "conversation_id": "1374554660997058565",
+            "created_at": "2021-03-24T02:59:55.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 53,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.527,
+                        "start": 44,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 10,
+                        "start": 0,
+                        "username": "Pixelfish"
+                    }
+                ]
+            },
+            "id": "1374556555908050951",
+            "in_reply_to_user_id": "10695762",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 4,
+                "quote_count": 1,
+                "reply_count": 0,
+                "retweet_count": 1
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374554660997058565",
+                    "type": "replied_to"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "@Pixelfish What if the shrimp came from the Suez Canal..."
+        },
+        {
+            "author_id": "160244947",
+            "conversation_id": "1374556555618713603",
+            "created_at": "2021-03-24T02:59:55.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 70,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.6316,
+                        "start": 61,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "Joyce_Karam"
+                    }
+                ]
+            },
+            "id": "1374556555618713603",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 143
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374556262034255872",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @Joyce_Karam: Wow. Massive container ship is blocking the Suez Canal, one of world\u2019s largest shipping &amp; trade lanes. \n\nVideo of Ever Giv\u2026"
+        },
+        {
+            "author_id": "19145560",
+            "conversation_id": "1374556553299304449",
+            "created_at": "2021-03-24T02:59:54.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 70,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.6316,
+                        "start": 61,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "Joyce_Karam"
+                    }
+                ]
+            },
+            "id": "1374556553299304449",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 143
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374556262034255872",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @Joyce_Karam: Wow. Massive container ship is blocking the Suez Canal, one of world\u2019s largest shipping &amp; trade lanes. \n\nVideo of Ever Giv\u2026"
+        },
+        {
+            "author_id": "1175206626099380224",
+            "conversation_id": "1374556553148125184",
+            "created_at": "2021-03-24T02:59:54.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556553148125184",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "267406305",
+            "conversation_id": "1374556552762433537",
+            "created_at": "2021-03-24T02:59:54.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 33,
+                        "start": 23,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556552762433537",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12213
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374438210315513864",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @jsrailton: So, the #SuezCanal is blocked...\n\nMassive container ship EVER GIVEN stuck in the most awkward way possible.\n\nOngoing for hou\u2026"
+        },
+        {
+            "author_id": "205274572",
+            "conversation_id": "1374556551780782082",
+            "created_at": "2021-03-24T02:59:54.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 33,
+                        "start": 23,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556551780782082",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12213
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374438210315513864",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @jsrailton: So, the #SuezCanal is blocked...\n\nMassive container ship EVER GIVEN stuck in the most awkward way possible.\n\nOngoing for hou\u2026"
+        },
+        {
+            "author_id": "127736480",
+            "conversation_id": "1374556550056923143",
+            "created_at": "2021-03-24T02:59:54.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 63,
+                        "start": 53,
+                        "tag": "SuezCanal"
+                    },
+                    {
+                        "end": 95,
+                        "start": 85,
+                        "tag": "EVERGIVEN"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556550056923143",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 3118
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480234632736769",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @jsrailton: Update: still stuck.\n\nHow big is this #SuezCanal plug? Ultra big.\n\nMV #EVERGIVEN\nSize: 400m long / 59m wide\nGross tonnage: 2\u2026"
+        },
+        {
+            "author_id": "258575774",
+            "conversation_id": "1374556545099341825",
+            "created_at": "2021-03-24T02:59:53.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 70,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.525,
+                        "start": 61,
+                        "type": "Place"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "end": 106,
+                        "start": 96,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "vtchakarova"
+                    }
+                ]
+            },
+            "id": "1374556545099341825",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 101
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374484325173891073",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPad",
+            "text": "RT @vtchakarova: A \u2018mega ship\u2019 has run aground, blocking the Suez Canal in both directions. The #SuezCanal is one of the most important mar\u2026"
+        },
+        {
+            "author_id": "364410467",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Categories within Brand Verticals that narrow down the scope of Brands",
+                        "id": "46",
+                        "name": "Brand Category"
+                    },
+                    "entity": {
+                        "id": "781974596752842752",
+                        "name": "Services"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Brands and Companies",
+                        "id": "47",
+                        "name": "Brand"
+                    },
+                    "entity": {
+                        "id": "10045225402",
+                        "name": "Twitter"
+                    }
+                }
+            ],
+            "conversation_id": "1374556544990334977",
+            "created_at": "2021-03-24T02:59:53.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 57,
+                        "normalized_text": "Twitter",
+                        "probability": 0.7119,
+                        "start": 51,
+                        "type": "Product"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "MaxKennerly"
+                    }
+                ]
+            },
+            "id": "1374556544990334977",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 175
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374517396996714497",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @MaxKennerly: There's plenty that's awful about Twitter, but, sometimes, you're curious about a very specific thing you know nothing abo\u2026"
+        },
+        {
+            "author_id": "227172310",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Categories within Brand Verticals that narrow down the scope of Brands",
+                        "id": "46",
+                        "name": "Brand Category"
+                    },
+                    "entity": {
+                        "id": "781974596157181956",
+                        "name": "Online Site"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Brands and Companies",
+                        "id": "47",
+                        "name": "Brand"
+                    },
+                    "entity": {
+                        "id": "1139108298584518656",
+                        "name": "Bloomberg"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Traffic",
+                        "id": "1037076073719025664",
+                        "name": "Traffic"
+                    }
+                }
+            ],
+            "conversation_id": "1374556542494642182",
+            "created_at": "2021-03-24T02:59:52.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 66,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.8226,
+                        "start": 57,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 11,
+                        "start": 3,
+                        "username": "markets"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "trib.al/JxrbGtv",
+                        "end": 128,
+                        "expanded_url": "https://trib.al/JxrbGtv",
+                        "start": 105,
+                        "url": "https://t.co/1mrUxSpnP5"
+                    }
+                ]
+            },
+            "id": "1374556542494642182",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 13
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374555622168014850",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @markets: A giant container ship has got stuck in the Suez Canal, blocking traffic in both directions https://t.co/1mrUxSpnP5"
+        },
+        {
+            "author_id": "19058109",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Traffic",
+                        "id": "1037076073719025664",
+                        "name": "Traffic"
+                    }
+                }
+            ],
+            "conversation_id": "1374556540208828418",
+            "created_at": "2021-03-24T02:59:51.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "Jackstilgoe"
+                    }
+                ]
+            },
+            "id": "1374556540208828418",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 2061
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374472058164314120",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @Jackstilgoe: You know that feeling when you stall at the lights and hold up traffic? This is a bit like that. A big boat is stuck in th\u2026"
+        },
+        {
+            "author_id": "30184313",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Named people in the world like Nelson Mandela",
+                        "id": "10",
+                        "name": "Person"
+                    },
+                    "entity": {
+                        "description": "US Representative Eric Swalwell (CA-15)",
+                        "id": "940606231609147393",
+                        "name": "Eric Swalwell"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Politicians in the world, like Joe Biden",
+                        "id": "35",
+                        "name": "Politician"
+                    },
+                    "entity": {
+                        "description": "US Representative Eric Swalwell (CA-15)",
+                        "id": "940606231609147393",
+                        "name": "Eric Swalwell"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Named people in the world like Nelson Mandela",
+                        "id": "10",
+                        "name": "Person"
+                    },
+                    "entity": {
+                        "description": "US Senator Mitch McConnell (KY)",
+                        "id": "888193957263400964",
+                        "name": "Mitch McConnell"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Politicians in the world, like Joe Biden",
+                        "id": "35",
+                        "name": "Politician"
+                    },
+                    "entity": {
+                        "description": "US Senator Mitch McConnell (KY)",
+                        "id": "888193957263400964",
+                        "name": "Mitch McConnell"
+                    }
+                }
+            ],
+            "conversation_id": "1374556539374112774",
+            "created_at": "2021-03-24T02:59:51.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 39,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.3713,
+                        "start": 30,
+                        "type": "Place"
+                    },
+                    {
+                        "end": 53,
+                        "normalized_text": "Senate",
+                        "probability": 0.5852,
+                        "start": 48,
+                        "type": "Organization"
+                    },
+                    {
+                        "end": 92,
+                        "normalized_text": "Mitch McConnell",
+                        "probability": 0.9936,
+                        "start": 78,
+                        "type": "Person"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "ericswalwell"
+                    }
+                ]
+            },
+            "id": "1374556539374112774",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 505
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374488813506945026",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @ericswalwell: Imagine the Suez Canal is the Senate, the container ship is Mitch McConnell, and all those ships waiting to sail through\u2026"
+        },
+        {
+            "author_id": "342565104",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Categories within Brand Verticals that narrow down the scope of Brands",
+                        "id": "46",
+                        "name": "Brand Category"
+                    },
+                    "entity": {
+                        "id": "781974596752842752",
+                        "name": "Services"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Brands and Companies",
+                        "id": "47",
+                        "name": "Brand"
+                    },
+                    "entity": {
+                        "id": "10045225402",
+                        "name": "Twitter"
+                    }
+                }
+            ],
+            "conversation_id": "1374556539227234309",
+            "created_at": "2021-03-24T02:59:51.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 57,
+                        "normalized_text": "Twitter",
+                        "probability": 0.7119,
+                        "start": 51,
+                        "type": "Product"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "MaxKennerly"
+                    }
+                ]
+            },
+            "id": "1374556539227234309",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 175
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374517396996714497",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @MaxKennerly: There's plenty that's awful about Twitter, but, sometimes, you're curious about a very specific thing you know nothing abo\u2026"
+        },
+        {
+            "author_id": "3166182932",
+            "conversation_id": "1374556534219309060",
+            "created_at": "2021-03-24T02:59:50.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "evanchill"
+                    }
+                ]
+            },
+            "id": "1374556534219309060",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 618
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374525196070051841",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @evanchill: Here's a video of the gigantic container ship that is still single-handedly blocking world trade in the Suez Canal https://t\u2026"
+        },
+        {
+            "author_id": "116983274",
+            "conversation_id": "1374556532319383552",
+            "created_at": "2021-03-24T02:59:49.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556532319383552",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "TweetDeck",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "866910744402694144",
+            "conversation_id": "1374556529714728965",
+            "created_at": "2021-03-24T02:59:49.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 70,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.6316,
+                        "start": 61,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "Joyce_Karam"
+                    }
+                ]
+            },
+            "id": "1374556529714728965",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 143
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374556262034255872",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @Joyce_Karam: Wow. Massive container ship is blocking the Suez Canal, one of world\u2019s largest shipping &amp; trade lanes. \n\nVideo of Ever Giv\u2026"
+        },
+        {
+            "author_id": "32132930",
+            "conversation_id": "1374556523242868738",
+            "created_at": "2021-03-24T02:59:47.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 100,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.4543,
+                        "start": 91,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nat_ahoy"
+                    }
+                ]
+            },
+            "id": "1374556523242868738",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1202
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374445914169831427",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @nat_ahoy: After all day trying to refloat the mega container ship 'Ever Given', in the Suez Canal, there is a steady log jam of ships w\u2026"
+        },
+        {
+            "author_id": "1034553096",
+            "conversation_id": "1374556522802388992",
+            "created_at": "2021-03-24T02:59:47.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 63,
+                        "start": 53,
+                        "tag": "SuezCanal"
+                    },
+                    {
+                        "end": 95,
+                        "start": 85,
+                        "tag": "EVERGIVEN"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556522802388992",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 3118
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480234632736769",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @jsrailton: Update: still stuck.\n\nHow big is this #SuezCanal plug? Ultra big.\n\nMV #EVERGIVEN\nSize: 400m long / 59m wide\nGross tonnage: 2\u2026"
+        },
+        {
+            "author_id": "38154011",
+            "conversation_id": "1374556518620614659",
+            "created_at": "2021-03-24T02:59:46.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 91,
+                        "start": 81,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556518620614659",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1541
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374468169784459267",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "TweetDeck",
+            "text": "RT @jsrailton: Latest update: the EVER GIVEN is...  still ever-jammed across the #SuezCanal.\n\nAlso, a teeny excavator tried to help.\n\nThank\u2026"
+        },
+        {
+            "author_id": "1242655647994449920",
+            "conversation_id": "1374556518570467331",
+            "created_at": "2021-03-24T02:59:46.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 72,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.4686,
+                        "start": 63,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 14,
+                        "start": 3,
+                        "username": "byrdinator"
+                    }
+                ]
+            },
+            "id": "1374556518570467331",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 40
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374490174596386817",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @byrdinator: I find the container ship that is stuck in the Suez Canal and causing problems for everyone else very relatable"
+        },
+        {
+            "attachments": {
+                "media_keys": [
+                    "3_1374522868092919808"
+                ]
+            },
+            "author_id": "156031462",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Brands and Companies",
+                        "id": "47",
+                        "name": "Brand"
+                    },
+                    "entity": {
+                        "description": "The Hill",
+                        "id": "1100053375620534275",
+                        "name": "The Hill"
+                    }
+                }
+            ],
+            "conversation_id": "1374556510362218496",
+            "created_at": "2021-03-24T02:59:44.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 39,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.3335,
+                        "start": 30,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 11,
+                        "start": 3,
+                        "username": "thehill"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "hill.cm/3GMXGEn",
+                        "end": 105,
+                        "expanded_url": "http://hill.cm/3GMXGEn",
+                        "start": 82,
+                        "url": "https://t.co/Qd9vCY7dW9"
+                    },
+                    {
+                        "display_url": "pic.twitter.com/DX1snz7WRI",
+                        "end": 129,
+                        "expanded_url": "https://twitter.com/thehill/status/1374522870458679296/photo/1",
+                        "start": 106,
+                        "url": "https://t.co/DX1snz7WRI"
+                    }
+                ]
+            },
+            "id": "1374556510362218496",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 119
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374522870458679296",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @thehill: Shipping through Suez Canal halted after container ship runs aground https://t.co/Qd9vCY7dW9 https://t.co/DX1snz7WRI"
+        },
+        {
+            "author_id": "1212499322849247232",
+            "conversation_id": "1374556506939531265",
+            "created_at": "2021-03-24T02:59:43.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 31,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.531,
+                        "start": 22,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "marceldirsus"
+                    }
+                ]
+            },
+            "id": "1374556506939531265",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 13584
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480496789393412",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @marceldirsus: The Suez Canal, one of the most important shipping lanes in the world, is reportedly blocked because someone accidentally\u2026"
+        },
+        {
+            "author_id": "979051576366129153",
+            "conversation_id": "1374556503470837761",
+            "created_at": "2021-03-24T02:59:43.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 29,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.2582,
+                        "start": 19,
+                        "type": "Other"
+                    }
+                ]
+            },
+            "id": "1374556503470837761",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 7,
+                "quote_count": 1,
+                "reply_count": 1,
+                "retweet_count": 0
+            },
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "How does one get a Suez Canal\njob? Asking for a canal friend"
+        },
+        {
+            "attachments": {
+                "media_keys": [
+                    "16_1374535761580625921"
+                ]
+            },
+            "author_id": "321103823",
+            "conversation_id": "1374556498043408384",
+            "created_at": "2021-03-24T02:59:41.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 19,
+                        "start": 3,
+                        "username": "PatrickWilliams"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "pic.twitter.com/GVPyowJM9H",
+                        "end": 55,
+                        "expanded_url": "https://twitter.com/PatrickWilliams/status/1374535772477427713/photo/1",
+                        "start": 32,
+                        "url": "https://t.co/GVPyowJM9H"
+                    }
+                ]
+            },
+            "id": "1374556498043408384",
+            "lang": "es",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 5
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374535772477427713",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @PatrickWilliams: Suez Canal https://t.co/GVPyowJM9H"
+        },
+        {
+            "author_id": "701585010550300672",
+            "conversation_id": "1374556495669563393",
+            "created_at": "2021-03-24T02:59:41.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556495669563393",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "1021821720334876672",
+            "conversation_id": "1374556494964875265",
+            "created_at": "2021-03-24T02:59:41.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 19,
+                        "start": 3,
+                        "username": "thomas_violence"
+                    }
+                ]
+            },
+            "id": "1374556494964875265",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 704
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374485297556189191",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @thomas_violence: getting on the PA and telling all hands to \"check this shit out\" as I whip the container vessel I'm piloting into a si\u2026"
+        },
+        {
+            "author_id": "1070093400249171968",
+            "conversation_id": "1374556493283008512",
+            "created_at": "2021-03-24T02:59:40.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556493283008512",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "1160442801663938560",
+            "conversation_id": "1374556488891441154",
+            "created_at": "2021-03-24T02:59:39.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 146,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.4511,
+                        "start": 137,
+                        "type": "Other"
+                    }
+                ]
+            },
+            "id": "1374556488891441154",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "If you ever think you\u2019ve screwed up something and everyone is waiting for you, you\u2019ll always be able to say \u2018at least I didn\u2019t block the Suez Canal\u2019.  \n\nUnless you did. \n\nIf it was you... maaaaate. Do you need a hug?"
+        },
+        {
+            "author_id": "2555536489",
+            "conversation_id": "1374556485779386373",
+            "created_at": "2021-03-24T02:59:38.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 33,
+                        "start": 23,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556485779386373",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12213
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374438210315513864",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @jsrailton: So, the #SuezCanal is blocked...\n\nMassive container ship EVER GIVEN stuck in the most awkward way possible.\n\nOngoing for hou\u2026"
+        },
+        {
+            "author_id": "336933461",
+            "conversation_id": "1374556485125033985",
+            "created_at": "2021-03-24T02:59:38.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 71,
+                        "normalized_text": "Canal de Suez",
+                        "probability": 0.6855,
+                        "start": 59,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 18,
+                        "start": 3,
+                        "username": "patriciomolina"
+                    }
+                ]
+            },
+            "id": "1374556485125033985",
+            "lang": "es",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1009
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374516622828863488",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @patriciomolina: Un barco paname\u00f1o qued\u00f3 atrapado en el Canal de Suez y est\u00e1 dificultando gran parte del comercio internacional. Hay una\u2026"
+        },
+        {
+            "author_id": "20183364",
+            "conversation_id": "1374556482780413955",
+            "created_at": "2021-03-24T02:59:38.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556482780413955",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "attachments": {
+                "media_keys": [
+                    "3_1374556025571966976"
+                ]
+            },
+            "author_id": "31617509",
+            "conversation_id": "1374556482247663626",
+            "created_at": "2021-03-24T02:59:38.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 44,
+                        "start": 34,
+                        "tag": "EVERGIVEN"
+                    },
+                    {
+                        "end": 55,
+                        "start": 45,
+                        "tag": "EVERGREEN"
+                    },
+                    {
+                        "end": 66,
+                        "start": 56,
+                        "tag": "SuezCanal"
+                    },
+                    {
+                        "end": 80,
+                        "start": 67,
+                        "tag": "SuezBlockade"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 10,
+                        "start": 3,
+                        "username": "BVaags"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "pic.twitter.com/78AOhBsXPC",
+                        "end": 104,
+                        "expanded_url": "https://twitter.com/BVaags/status/1374556050028961792/photo/1",
+                        "start": 81,
+                        "url": "https://t.co/78AOhBsXPC"
+                    }
+                ]
+            },
+            "id": "1374556482247663626",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 2
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374556050028961792",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @BVaags: Meanwhile onboard the #EVERGIVEN #EVERGREEN #SuezCanal #SuezBlockade https://t.co/78AOhBsXPC"
+        },
+        {
+            "author_id": "1346969661242568704",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Traffic",
+                        "id": "1037076073719025664",
+                        "name": "Traffic"
+                    }
+                }
+            ],
+            "conversation_id": "1374556476103069696",
+            "created_at": "2021-03-24T02:59:36.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "Jackstilgoe"
+                    }
+                ]
+            },
+            "id": "1374556476103069696",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 2061
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374472058164314120",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @Jackstilgoe: You know that feeling when you stall at the lights and hold up traffic? This is a bit like that. A big boat is stuck in th\u2026"
+        },
+        {
+            "author_id": "1023400685033992193",
+            "conversation_id": "1374556467957796864",
+            "created_at": "2021-03-24T02:59:34.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 19,
+                        "start": 3,
+                        "username": "thomas_violence"
+                    }
+                ]
+            },
+            "id": "1374556467957796864",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 704
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374485297556189191",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @thomas_violence: getting on the PA and telling all hands to \"check this shit out\" as I whip the container vessel I'm piloting into a si\u2026"
+        },
+        {
+            "author_id": "63028699",
+            "conversation_id": "1374556466367975424",
+            "created_at": "2021-03-24T02:59:34.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 63,
+                        "start": 53,
+                        "tag": "SuezCanal"
+                    },
+                    {
+                        "end": 95,
+                        "start": 85,
+                        "tag": "EVERGIVEN"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556466367975424",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 3118
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480234632736769",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @jsrailton: Update: still stuck.\n\nHow big is this #SuezCanal plug? Ultra big.\n\nMV #EVERGIVEN\nSize: 400m long / 59m wide\nGross tonnage: 2\u2026"
+        },
+        {
+            "author_id": "1166009297135779840",
+            "conversation_id": "1374556465050972163",
+            "created_at": "2021-03-24T02:59:33.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 19,
+                        "start": 3,
+                        "username": "TeresaFreeThink"
+                    }
+                ]
+            },
+            "id": "1374556465050972163",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 134
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480716684136456",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @TeresaFreeThink: When do you call a plumber? When something\u2019s maybe, \u2018blocked\u2019? \n\nOngoing investigations require...?\n\nWE HAVE IT ALL.\u2026"
+        },
+        {
+            "author_id": "269460044",
+            "conversation_id": "1374556464799481856",
+            "created_at": "2021-03-24T02:59:33.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 70,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.6316,
+                        "start": 61,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "Joyce_Karam"
+                    }
+                ]
+            },
+            "id": "1374556464799481856",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 143
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374556262034255872",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @Joyce_Karam: Wow. Massive container ship is blocking the Suez Canal, one of world\u2019s largest shipping &amp; trade lanes. \n\nVideo of Ever Giv\u2026"
+        },
+        {
+            "author_id": "185310700",
+            "conversation_id": "1374556462253506565",
+            "created_at": "2021-03-24T02:59:33.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 33,
+                        "start": 23,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556462253506565",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12213
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374438210315513864",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @jsrailton: So, the #SuezCanal is blocked...\n\nMassive container ship EVER GIVEN stuck in the most awkward way possible.\n\nOngoing for hou\u2026"
+        },
+        {
+            "author_id": "99785889",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Traffic",
+                        "id": "1037076073719025664",
+                        "name": "Traffic"
+                    }
+                }
+            ],
+            "conversation_id": "1374556461938917380",
+            "created_at": "2021-03-24T02:59:33.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 31,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.2762,
+                        "start": 22,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 14,
+                        "start": 3,
+                        "username": "disclosetv"
+                    }
+                ]
+            },
+            "id": "1374556461938917380",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 2786
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374465748458893314",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @disclosetv: NEW - Suez Canal,  one of the largest shipping lanes on the planet, blocked with a mega container ship, creating a traffic\u2026"
+        },
+        {
+            "author_id": "1174984762093473792",
+            "conversation_id": "1374556460797992966",
+            "created_at": "2021-03-24T02:59:32.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 50,
+                        "start": 40,
+                        "tag": "SuezCanal"
+                    },
+                    {
+                        "end": 109,
+                        "start": 99,
+                        "tag": "EVERGIVEN"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556460797992966",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 391
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374523356838391812",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @jsrailton: AIS data playback of the #SuezCanal the moment things went very, very wrong for the #EVERGIVEN...and then rest of global shi\u2026"
+        },
+        {
+            "author_id": "288610880",
+            "conversation_id": "1374556455576166405",
+            "created_at": "2021-03-24T02:59:31.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "Cupcake_1312"
+                    },
+                    {
+                        "end": 31,
+                        "start": 18,
+                        "username": "marceldirsus"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "gcaptain.com/grounded-mega-\u2026",
+                        "end": 55,
+                        "expanded_url": "https://gcaptain.com/grounded-mega-ship-blocking-suez-canal-in-both-directions/",
+                        "start": 32,
+                        "url": "https://t.co/w3Y9YVSWvq"
+                    }
+                ]
+            },
+            "id": "1374556455576166405",
+            "lang": "und",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 6
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374502842703040514",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @Cupcake_1312: @marceldirsus https://t.co/w3Y9YVSWvq"
+        },
+        {
+            "author_id": "878720478",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Top level entities that describe a Brands industry",
+                        "id": "45",
+                        "name": "Brand Vertical"
+                    },
+                    "entity": {
+                        "id": "781974596740190208",
+                        "name": "CPG"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Brands and Companies",
+                        "id": "47",
+                        "name": "Brand"
+                    },
+                    "entity": {
+                        "id": "10026568552",
+                        "name": "Cinnamon Toast Crunch"
+                    }
+                }
+            ],
+            "conversation_id": "1374372608976646153",
+            "created_at": "2021-03-24T02:59:31.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 180,
+                        "normalized_text": "Cinnamon Toast Crunch",
+                        "probability": 0.3165,
+                        "start": 160,
+                        "type": "Product"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 4,
+                        "start": 0,
+                        "username": "arb"
+                    }
+                ]
+            },
+            "id": "1374556454351470593",
+            "in_reply_to_user_id": "16444936",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 4,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374518390228877312",
+                    "type": "replied_to"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "@arb There might be a job opening for \"Suez canal boat pilot,\" since there was at least one person today who appeared to be having a worse day at work than the Cinnamon Toast Crunch social media manager..."
+        },
+        {
+            "author_id": "1908661261",
+            "conversation_id": "1374556454238134273",
+            "created_at": "2021-03-24T02:59:31.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556454238134273",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "1345223876",
+            "conversation_id": "1374556453298655236",
+            "created_at": "2021-03-24T02:59:31.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "evanchill"
+                    }
+                ]
+            },
+            "id": "1374556453298655236",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 618
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374525196070051841",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @evanchill: Here's a video of the gigantic container ship that is still single-handedly blocking world trade in the Suez Canal https://t\u2026"
+        },
+        {
+            "author_id": "122617686",
+            "conversation_id": "1374556452627484674",
+            "created_at": "2021-03-24T02:59:30.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 31,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.531,
+                        "start": 22,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "marceldirsus"
+                    }
+                ]
+            },
+            "id": "1374556452627484674",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 13584
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480496789393412",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @marceldirsus: The Suez Canal, one of the most important shipping lanes in the world, is reportedly blocked because someone accidentally\u2026"
+        },
+        {
+            "author_id": "21012670",
+            "conversation_id": "1374556452489199621",
+            "created_at": "2021-03-24T02:59:30.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 91,
+                        "start": 81,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556452489199621",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1541
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374468169784459267",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @jsrailton: Latest update: the EVER GIVEN is...  still ever-jammed across the #SuezCanal.\n\nAlso, a teeny excavator tried to help.\n\nThank\u2026"
+        },
+        {
+            "author_id": "1130798750",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Traffic",
+                        "id": "1037076073719025664",
+                        "name": "Traffic"
+                    }
+                }
+            ],
+            "conversation_id": "1374556451205693446",
+            "created_at": "2021-03-24T02:59:30.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 80,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.3816,
+                        "start": 71,
+                        "type": "Other"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "VinnyMcAv"
+                    }
+                ]
+            },
+            "id": "1374556451205693446",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 2
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374495191462158337",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPad",
+            "text": "RT @VinnyMcAv: We\u2019re all about to become very aware of how crucial the Suez Canal is to global trade and it might now be all down to this o\u2026"
+        },
+        {
+            "attachments": {
+                "media_keys": [
+                    "3_1374507336094543876"
+                ]
+            },
+            "author_id": "15397617",
+            "conversation_id": "1374556443614003200",
+            "created_at": "2021-03-24T02:59:28.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "RileyCmdr"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "pic.twitter.com/VhrRbaBSpF",
+                        "end": 74,
+                        "expanded_url": "https://twitter.com/RileyCmdr/status/1374507339122798592/photo/1",
+                        "start": 51,
+                        "url": "https://t.co/VhrRbaBSpF"
+                    }
+                ]
+            },
+            "id": "1374556443614003200",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 14
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374507339122798592",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @RileyCmdr: Some time earlier in the Suez canal https://t.co/VhrRbaBSpF"
+        },
+        {
+            "author_id": "17703462",
+            "conversation_id": "1374556437477662721",
+            "created_at": "2021-03-24T02:59:27.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556437477662721",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "513681618",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Traffic",
+                        "id": "1037076073719025664",
+                        "name": "Traffic"
+                    }
+                }
+            ],
+            "conversation_id": "1374556434889859073",
+            "created_at": "2021-03-24T02:59:26.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "Jackstilgoe"
+                    }
+                ]
+            },
+            "id": "1374556434889859073",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 2061
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374472058164314120",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @Jackstilgoe: You know that feeling when you stall at the lights and hold up traffic? This is a bit like that. A big boat is stuck in th\u2026"
+        },
+        {
+            "author_id": "118201586",
+            "conversation_id": "1374556431697944576",
+            "created_at": "2021-03-24T02:59:25.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 29,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.5728,
+                        "start": 20,
+                        "type": "Place"
+                    }
+                ]
+            },
+            "id": "1374556431697944576",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 2,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "A ship stuck in the Suez Canal? It might be a Nile."
+        },
+        {
+            "author_id": "1145593234586046464",
+            "conversation_id": "1374556431664418818",
+            "created_at": "2021-03-24T02:59:25.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 63,
+                        "start": 53,
+                        "tag": "SuezCanal"
+                    },
+                    {
+                        "end": 95,
+                        "start": 85,
+                        "tag": "EVERGIVEN"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556431664418818",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 3118
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480234632736769",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @jsrailton: Update: still stuck.\n\nHow big is this #SuezCanal plug? Ultra big.\n\nMV #EVERGIVEN\nSize: 400m long / 59m wide\nGross tonnage: 2\u2026"
+        },
+        {
+            "author_id": "57627106",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Traffic",
+                        "id": "1037076073719025664",
+                        "name": "Traffic"
+                    }
+                }
+            ],
+            "conversation_id": "1374556430674456576",
+            "created_at": "2021-03-24T02:59:25.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 56,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.905,
+                        "start": 47,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 10,
+                        "start": 3,
+                        "username": "RT_com"
+                    }
+                ]
+            },
+            "id": "1374556430674456576",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 53
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374532668050698242",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @RT_com: GIANT container ship gets stuck in Suez Canal, blocking ALL traffic &amp; sparking frantic effort to pull it free (PHOTO) \n\nhttps:/\u2026"
+        },
+        {
+            "author_id": "160155842",
+            "conversation_id": "1374556427419750400",
+            "created_at": "2021-03-24T02:59:24.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 63,
+                        "start": 53,
+                        "tag": "SuezCanal"
+                    },
+                    {
+                        "end": 95,
+                        "start": 85,
+                        "tag": "EVERGIVEN"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556427419750400",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 3118
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480234632736769",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @jsrailton: Update: still stuck.\n\nHow big is this #SuezCanal plug? Ultra big.\n\nMV #EVERGIVEN\nSize: 400m long / 59m wide\nGross tonnage: 2\u2026"
+        },
+        {
+            "author_id": "1340899577600172032",
+            "conversation_id": "1374556425972686850",
+            "created_at": "2021-03-24T02:59:24.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 33,
+                        "start": 23,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556425972686850",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12213
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374438210315513864",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @jsrailton: So, the #SuezCanal is blocked...\n\nMassive container ship EVER GIVEN stuck in the most awkward way possible.\n\nOngoing for hou\u2026"
+        },
+        {
+            "author_id": "29352663",
+            "conversation_id": "1374556424391516160",
+            "created_at": "2021-03-24T02:59:24.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 13,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.3672,
+                        "start": 4,
+                        "type": "Place"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "bit.ly/3faK3Fh",
+                        "end": 148,
+                        "expanded_url": "https://bit.ly/3faK3Fh",
+                        "start": 125,
+                        "url": "https://t.co/9f6vpA5u4q"
+                    }
+                ]
+            },
+            "id": "1374556424391516160",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 1,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "reply_settings": "everyone",
+            "source": "Zapier.com",
+            "text": "The Suez Canal has been blocked by a giant container ship that is unable to turn around despite several refloating attempts. https://t.co/9f6vpA5u4q"
+        },
+        {
+            "author_id": "20214900",
+            "conversation_id": "1374556419035303936",
+            "created_at": "2021-03-24T02:59:22.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 34,
+                        "start": 24,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "m.youtube.com/watch?v=aULRhg\u2026",
+                        "end": 23,
+                        "expanded_url": "https://m.youtube.com/watch?v=aULRhgG_Az8",
+                        "start": 0,
+                        "url": "https://t.co/zGrjdDhupC"
+                    }
+                ]
+            },
+            "id": "1374556419035303936",
+            "lang": "und",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 2,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1
+            },
+            "reply_settings": "everyone",
+            "source": "Tweetbot for i\u039fS",
+            "text": "https://t.co/zGrjdDhupC #SuezCanal"
+        },
+        {
+            "author_id": "1345223876",
+            "conversation_id": "1374556418838249472",
+            "created_at": "2021-03-24T02:59:22.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "semubhatt"
+                    }
+                ]
+            },
+            "id": "1374556418838249472",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 487
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374520502761394177",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @semubhatt: The 220,000-tonne, 400m-long container ship has gotten stuck in the Suez canal, blocking one of the most important shipping\u2026"
+        },
+        {
+            "author_id": "160698774",
+            "conversation_id": "1374556415554162688",
+            "created_at": "2021-03-24T02:59:22.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556415554162688",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "TweetDeck",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "225073123",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Top level entities that describe a Brands industry",
+                        "id": "45",
+                        "name": "Brand Vertical"
+                    },
+                    "entity": {
+                        "id": "781974596706635776",
+                        "name": "Retail"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Categories within Brand Verticals that narrow down the scope of Brands",
+                        "id": "46",
+                        "name": "Brand Category"
+                    },
+                    "entity": {
+                        "id": "783335558466506752",
+                        "name": "Online"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Brands and Companies",
+                        "id": "47",
+                        "name": "Brand"
+                    },
+                    "entity": {
+                        "id": "10026792024",
+                        "name": "Amazon"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone.",
+                        "id": "48",
+                        "name": "Product"
+                    },
+                    "entity": {
+                        "id": "10046538542",
+                        "name": "Amazon Prime"
+                    }
+                }
+            ],
+            "conversation_id": "1374556414157332482",
+            "created_at": "2021-03-24T02:59:21.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 43,
+                        "normalized_text": "Amazon prime order",
+                        "probability": 0.3383,
+                        "start": 26,
+                        "type": "Product"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "theguardian.com/world/2021/mar\u2026",
+                        "end": 89,
+                        "expanded_url": "https://www.theguardian.com/world/2021/mar/24/huge-container-ship-blocks-suez-canal-evergreen",
+                        "start": 66,
+                        "url": "https://t.co/xxok6pMN8b"
+                    }
+                ]
+            },
+            "id": "1374556414157332482",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 8,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "Sooo... does this mean my Amazon prime order is going to be late? https://t.co/xxok6pMN8b"
+        },
+        {
+            "author_id": "1287487612777791489",
+            "conversation_id": "1374556407731789832",
+            "created_at": "2021-03-24T02:59:20.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 31,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.531,
+                        "start": 22,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "marceldirsus"
+                    }
+                ]
+            },
+            "id": "1374556407731789832",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 13584
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480496789393412",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @marceldirsus: The Suez Canal, one of the most important shipping lanes in the world, is reportedly blocked because someone accidentally\u2026"
+        },
+        {
+            "author_id": "968756757467156480",
+            "conversation_id": "1374556407190593539",
+            "created_at": "2021-03-24T02:59:20.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 31,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.531,
+                        "start": 22,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "marceldirsus"
+                    }
+                ]
+            },
+            "id": "1374556407190593539",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 13584
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480496789393412",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @marceldirsus: The Suez Canal, one of the most important shipping lanes in the world, is reportedly blocked because someone accidentally\u2026"
+        },
+        {
+            "author_id": "4907683636",
+            "conversation_id": "1374556403814301698",
+            "created_at": "2021-03-24T02:59:19.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 31,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.531,
+                        "start": 22,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "marceldirsus"
+                    }
+                ]
+            },
+            "id": "1374556403814301698",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 13584
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480496789393412",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @marceldirsus: The Suez Canal, one of the most important shipping lanes in the world, is reportedly blocked because someone accidentally\u2026"
+        },
+        {
+            "author_id": "26261563",
+            "conversation_id": "1374556401813573639",
+            "created_at": "2021-03-24T02:59:18.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 134,
+                        "normalized_text": "Brexit Britain",
+                        "probability": 0.2408,
+                        "start": 121,
+                        "type": "Other"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 17,
+                        "start": 3,
+                        "username": "bakerstherald"
+                    }
+                ]
+            },
+            "id": "1374556401813573639",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 33
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374553882001608705",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @bakerstherald: Breaking radio silence as I am unable to sleep and just saw this - which is of huge relevance to post Brexit Britain's E\u2026"
+        },
+        {
+            "author_id": "1186606653535211520",
+            "conversation_id": "1374556401092075521",
+            "created_at": "2021-03-24T02:59:18.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 70,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.6316,
+                        "start": 61,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "Joyce_Karam"
+                    }
+                ]
+            },
+            "id": "1374556401092075521",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 143
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374556262034255872",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @Joyce_Karam: Wow. Massive container ship is blocking the Suez Canal, one of world\u2019s largest shipping &amp; trade lanes. \n\nVideo of Ever Giv\u2026"
+        },
+        {
+            "author_id": "18658924",
+            "conversation_id": "1374556400697933826",
+            "created_at": "2021-03-24T02:59:18.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 100,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.4543,
+                        "start": 91,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nat_ahoy"
+                    }
+                ]
+            },
+            "id": "1374556400697933826",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1202
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374445914169831427",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @nat_ahoy: After all day trying to refloat the mega container ship 'Ever Given', in the Suez Canal, there is a steady log jam of ships w\u2026"
+        },
+        {
+            "author_id": "201859166",
+            "conversation_id": "1374556398764355586",
+            "created_at": "2021-03-24T02:59:18.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 31,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.531,
+                        "start": 22,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "marceldirsus"
+                    }
+                ]
+            },
+            "id": "1374556398764355586",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 13584
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480496789393412",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @marceldirsus: The Suez Canal, one of the most important shipping lanes in the world, is reportedly blocked because someone accidentally\u2026"
+        },
+        {
+            "author_id": "107702315",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Top level interests and hobbies groupings, like Food or Travel",
+                        "id": "65",
+                        "name": "Interests and Hobbies Vertical"
+                    },
+                    "entity": {
+                        "description": "Technology and computing",
+                        "id": "848920371311001600",
+                        "name": "Technology"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations",
+                        "id": "66",
+                        "name": "Interests and Hobbies Category"
+                    },
+                    "entity": {
+                        "description": "Cybersecurity",
+                        "id": "898650876658634752",
+                        "name": "Cybersecurity"
+                    }
+                }
+            ],
+            "conversation_id": "1374556394666463232",
+            "created_at": "2021-03-24T02:59:17.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 57,
+                        "start": 47,
+                        "tag": "SuezCanal"
+                    },
+                    {
+                        "end": 68,
+                        "start": 58,
+                        "tag": "EverGiven"
+                    },
+                    {
+                        "end": 103,
+                        "start": 91,
+                        "tag": "cyberattack"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 18,
+                        "start": 3,
+                        "username": "MichaelVerrari"
+                    }
+                ]
+            },
+            "id": "1374556394666463232",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 2
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374555819103166465",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @MichaelVerrari: Relevant. If you think the #SuezCanal #EverGiven could be navigational #cyberattack"
+        },
+        {
+            "author_id": "398228119",
+            "conversation_id": "1374547785568034817",
+            "created_at": "2021-03-24T02:59:16.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 76,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.5004,
+                        "start": 67,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 10,
+                        "start": 0,
+                        "username": "CocoAnoka"
+                    },
+                    {
+                        "end": 20,
+                        "start": 11,
+                        "username": "IwriteOK"
+                    }
+                ]
+            },
+            "id": "1374556391566835716",
+            "in_reply_to_user_id": "20644227",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374549607141761028",
+                    "type": "replied_to"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "@CocoAnoka @IwriteOK Few good jokes about the ship wedged into the Suez Canal, too."
+        },
+        {
+            "author_id": "20608982",
+            "conversation_id": "1374556390040215554",
+            "created_at": "2021-03-24T02:59:16.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556390040215554",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "155749831",
+            "conversation_id": "1374556388777676802",
+            "created_at": "2021-03-24T02:59:15.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556388777676802",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "4024864455",
+            "conversation_id": "1374556385145409537",
+            "created_at": "2021-03-24T02:59:14.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 31,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.531,
+                        "start": 22,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "marceldirsus"
+                    }
+                ]
+            },
+            "id": "1374556385145409537",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 13584
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480496789393412",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @marceldirsus: The Suez Canal, one of the most important shipping lanes in the world, is reportedly blocked because someone accidentally\u2026"
+        },
+        {
+            "author_id": "1145593234586046464",
+            "conversation_id": "1374556385023832070",
+            "created_at": "2021-03-24T02:59:14.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 100,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.4543,
+                        "start": 91,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nat_ahoy"
+                    }
+                ]
+            },
+            "id": "1374556385023832070",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1202
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374445914169831427",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @nat_ahoy: After all day trying to refloat the mega container ship 'Ever Given', in the Suez Canal, there is a steady log jam of ships w\u2026"
+        },
+        {
+            "attachments": {
+                "media_keys": [
+                    "3_1374556380376539137"
+                ]
+            },
+            "author_id": "1020910656",
+            "conversation_id": "1374556382041620483",
+            "created_at": "2021-03-24T02:59:14.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 218,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.3939,
+                        "start": 209,
+                        "type": "Place"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "pic.twitter.com/WuVvosZiSe",
+                        "end": 246,
+                        "expanded_url": "https://twitter.com/TheSchreck/status/1374556382041620483/photo/1",
+                        "start": 223,
+                        "url": "https://t.co/WuVvosZiSe"
+                    }
+                ]
+            },
+            "id": "1374556382041620483",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "No matter how bad your day was, it wasn't somehow turning your ship sideways in the busiest canal in the world and halting world trade bad. What a fucking idiot. How the hell do you get wedged sideways in the Suez Canal??? https://t.co/WuVvosZiSe"
+        },
+        {
+            "attachments": {
+                "media_keys": [
+                    "3_1374526479296393221"
+                ]
+            },
+            "author_id": "1304493706670673926",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Named people in the world like Nelson Mandela",
+                        "id": "10",
+                        "name": "Person"
+                    },
+                    "entity": {
+                        "description": "US Representative Matt Gaetz (FL-01)",
+                        "id": "966043884340985856",
+                        "name": "Matt Gaetz"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Politicians in the world, like Joe Biden",
+                        "id": "35",
+                        "name": "Politician"
+                    },
+                    "entity": {
+                        "description": "US Representative Matt Gaetz (FL-01)",
+                        "id": "966043884340985856",
+                        "name": "Matt Gaetz"
+                    }
+                }
+            ],
+            "conversation_id": "1374556379013337092",
+            "created_at": "2021-03-24T02:59:13.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 61,
+                        "normalized_text": "Matt Gaetz",
+                        "probability": 0.9283,
+                        "start": 52,
+                        "type": "Person"
+                    },
+                    {
+                        "end": 97,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.3856,
+                        "start": 88,
+                        "type": "Other"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 18,
+                        "start": 3,
+                        "username": "BleedingMarine"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "pic.twitter.com/9Y3MbtHlna",
+                        "end": 123,
+                        "expanded_url": "https://twitter.com/BleedingMarine/status/1374526482379239424/photo/1",
+                        "start": 100,
+                        "url": "https://t.co/9Y3MbtHlna"
+                    }
+                ]
+            },
+            "id": "1374556379013337092",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 8
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374526482379239424",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @BleedingMarine: Okay seriously, who let a drunk Matt Gaetz drive a ship through the Suez Canal? https://t.co/9Y3MbtHlna"
+        },
+        {
+            "attachments": {
+                "media_keys": [
+                    "3_1374507772457353216"
+                ]
+            },
+            "author_id": "2900139381",
+            "conversation_id": "1374556377385930752",
+            "created_at": "2021-03-24T02:59:13.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 28,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.2599,
+                        "start": 19,
+                        "type": "Organization"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 17,
+                        "start": 3,
+                        "username": "ReflectingMan"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "pic.twitter.com/SEmtr6m4gx",
+                        "end": 60,
+                        "expanded_url": "https://twitter.com/ReflectingMan/status/1374507779017244684/photo/1",
+                        "start": 37,
+                        "url": "https://t.co/SEmtr6m4gx"
+                    }
+                ]
+            },
+            "id": "1374556377385930752",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374507779017244684",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @ReflectingMan: Suez Canal today. https://t.co/SEmtr6m4gx"
+        },
+        {
+            "author_id": "14299551",
+            "conversation_id": "1374556376920256513",
+            "created_at": "2021-03-24T02:59:12.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 189,
+                        "start": 179,
+                        "tag": "suezcanal"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "twitter.com/JavierBlas/sta\u2026",
+                        "end": 251,
+                        "expanded_url": "https://twitter.com/JavierBlas/status/1374512618346442757",
+                        "start": 228,
+                        "url": "https://t.co/PLYnTIOEV0"
+                    }
+                ]
+            },
+            "id": "1374556376920256513",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374512618346442757",
+                    "type": "quoted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "I know this is probably a big headache and is *totally* not funny. \n\nBut I can\u2019t stop laughing at the thought of someone just trying to eyeball this Monstro of a ship through the #suezcanal and thinking it would be no big deal. https://t.co/PLYnTIOEV0"
+        },
+        {
+            "author_id": "920300659555033089",
+            "conversation_id": "1374556376312147969",
+            "created_at": "2021-03-24T02:59:12.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 33,
+                        "start": 23,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556376312147969",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12213
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374438210315513864",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @jsrailton: So, the #SuezCanal is blocked...\n\nMassive container ship EVER GIVEN stuck in the most awkward way possible.\n\nOngoing for hou\u2026"
+        },
+        {
+            "author_id": "93264933",
+            "conversation_id": "1374556375611801602",
+            "created_at": "2021-03-24T02:59:12.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 31,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.531,
+                        "start": 22,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "marceldirsus"
+                    }
+                ]
+            },
+            "id": "1374556375611801602",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 13584
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480496789393412",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @marceldirsus: The Suez Canal, one of the most important shipping lanes in the world, is reportedly blocked because someone accidentally\u2026"
+        },
+        {
+            "author_id": "1215519491259420673",
+            "conversation_id": "1374556373220876289",
+            "created_at": "2021-03-24T02:59:12.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 41,
+                        "normalized_text": "Suez",
+                        "probability": 0.4342,
+                        "start": 38,
+                        "type": "Organization"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "fr.rti.org.tw/news/view/id/9\u2026",
+                        "end": 66,
+                        "expanded_url": "https://fr.rti.org.tw/news/view/id/93952#.YFqq_XLU9Mk.twitter",
+                        "start": 43,
+                        "url": "https://t.co/Ul9dtMk9xX"
+                    }
+                ]
+            },
+            "id": "1374556373220876289",
+            "lang": "es",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 1,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "Un cargo taiwanais bloque le canal de Suez https://t.co/Ul9dtMk9xX"
+        },
+        {
+            "author_id": "1345223876",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Top level entities that describe a Brands industry",
+                        "id": "45",
+                        "name": "Brand Vertical"
+                    },
+                    "entity": {
+                        "id": "781974597310615553",
+                        "name": "Entertainment"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Categories within Brand Verticals that narrow down the scope of Brands",
+                        "id": "46",
+                        "name": "Brand Category"
+                    },
+                    "entity": {
+                        "id": "781974596157181956",
+                        "name": "Online Site"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Categories within Brand Verticals that narrow down the scope of Brands",
+                        "id": "46",
+                        "name": "Brand Category"
+                    },
+                    "entity": {
+                        "id": "781974597105094656",
+                        "name": "TV/Movies Related"
+                    }
+                },
+                {
+                    "domain": {
+                        "description": "Brands and Companies",
+                        "id": "47",
+                        "name": "Brand"
+                    },
+                    "entity": {
+                        "description": "BBC",
+                        "id": "1065659570578612224",
+                        "name": "BBC"
+                    }
+                }
+            ],
+            "conversation_id": "1374556369051906049",
+            "created_at": "2021-03-24T02:59:11.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 18,
+                        "normalized_text": "Egypt",
+                        "probability": 0.7948,
+                        "start": 14,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "BBCWorld"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "bbc.in/3tPBrZ2",
+                        "end": 88,
+                        "expanded_url": "https://bbc.in/3tPBrZ2",
+                        "start": 65,
+                        "url": "https://t.co/HTfwL8tA24"
+                    }
+                ]
+            },
+            "id": "1374556369051906049",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1019
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374500457393967111",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @BBCWorld: Egypt's Suez Canal blocked by large container ship https://t.co/HTfwL8tA24"
+        },
+        {
+            "author_id": "848689089788260353",
+            "conversation_id": "1374556357597175814",
+            "created_at": "2021-03-24T02:59:08.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 31,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.531,
+                        "start": 22,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "marceldirsus"
+                    }
+                ]
+            },
+            "id": "1374556357597175814",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 13584
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480496789393412",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @marceldirsus: The Suez Canal, one of the most important shipping lanes in the world, is reportedly blocked because someone accidentally\u2026"
+        },
+        {
+            "author_id": "1145593234586046464",
+            "conversation_id": "1374556356712222722",
+            "created_at": "2021-03-24T02:59:08.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 33,
+                        "start": 23,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556356712222722",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12213
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374438210315513864",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @jsrailton: So, the #SuezCanal is blocked...\n\nMassive container ship EVER GIVEN stuck in the most awkward way possible.\n\nOngoing for hou\u2026"
+        },
+        {
+            "author_id": "390421144",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Traffic",
+                        "id": "1037076073719025664",
+                        "name": "Traffic"
+                    }
+                }
+            ],
+            "conversation_id": "1374556352681418755",
+            "created_at": "2021-03-24T02:59:07.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 60,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.7445,
+                        "start": 51,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 7,
+                        "start": 3,
+                        "username": "UPI"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "upi.com/Top_News/World\u2026",
+                        "end": 85,
+                        "expanded_url": "https://www.upi.com/Top_News/World-News/2021/03/23/Egypt-container-ship-blocks-Suez-Canal/4591616550164/?utm_source=dlvr.it&utm_medium=twitter",
+                        "start": 62,
+                        "url": "https://t.co/RMloQhGcOX"
+                    }
+                ]
+            },
+            "id": "1374556352681418755",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 10
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374556209831800836",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @UPI: Grounded container ship blocks traffic on Suez Canal https://t.co/RMloQhGcOX"
+        },
+        {
+            "author_id": "1619159022",
+            "conversation_id": "1374556349615517696",
+            "created_at": "2021-03-24T02:59:06.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 72,
+                        "normalized_text": "Municipalidad de Avellaneda",
+                        "probability": 0.855,
+                        "start": 46,
+                        "type": "Place"
+                    },
+                    {
+                        "end": 138,
+                        "normalized_text": "Sue",
+                        "probability": 0.2613,
+                        "start": 136,
+                        "type": "Person"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "Reperfilada"
+                    }
+                ]
+            },
+            "id": "1374556349615517696",
+            "lang": "es",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374555214146105354",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @Reperfilada: Ojal\u00e1 haya un puestito en la Municipalidad de Avellaneda para el pobre tipo que giro mal y tiene bloqueado el Canal de Sue\u2026"
+        },
+        {
+            "author_id": "1338242907262787585",
+            "conversation_id": "1374556348294209538",
+            "created_at": "2021-03-24T02:59:06.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 19,
+                        "start": 3,
+                        "username": "Meeeeee93322309"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "theguardian.com/world/2021/mar\u2026",
+                        "end": 123,
+                        "expanded_url": "https://www.theguardian.com/world/2021/mar/24/huge-container-ship-blocks-suez-canal-evergreen",
+                        "start": 100,
+                        "url": "https://t.co/a3A0CTuOXO"
+                    }
+                ]
+            },
+            "id": "1374556348294209538",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 55
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374508832362176517",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @Meeeeee93322309: . Look at what ship it is! \ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\ud83d\udc47\n\nSuez Canal blocked by huge container ship https://t.co/a3A0CTuOXO"
+        },
+        {
+            "author_id": "17264947",
+            "conversation_id": "1374556348092850176",
+            "created_at": "2021-03-24T02:59:06.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 47,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.433,
+                        "start": 38,
+                        "type": "Other"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "end": 260,
+                        "start": 241,
+                        "tag": "SomebodyHadABadDay"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "twitter.com/marceldirsus/s\u2026",
+                        "end": 284,
+                        "expanded_url": "https://twitter.com/marceldirsus/status/1374480496789393412",
+                        "start": 261,
+                        "url": "https://t.co/nrSKsCxcp7"
+                    }
+                ]
+            },
+            "geo": {
+                "place_id": "faab662cb34cf04f"
+            },
+            "id": "1374556348092850176",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 14,
+                "quote_count": 0,
+                "reply_count": 4,
+                "retweet_count": 1
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374480496789393412",
+                    "type": "quoted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPad",
+            "text": "A massive container ship blocking the Suez Canal isn\u2019t necessarily something you see every day. \ud83e\uddd0 \n\nBTW, check out that teeny tiny excavator on the right trying to dig him out! Actually not that tiny, it\u2019s just that the ship is so massive!\n\n#SomebodyHadABadDay https://t.co/nrSKsCxcp7"
+        },
+        {
+            "author_id": "478182922",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks",
+                        "id": "67",
+                        "name": "Interests and Hobbies"
+                    },
+                    "entity": {
+                        "description": "Traffic",
+                        "id": "1037076073719025664",
+                        "name": "Traffic"
+                    }
+                }
+            ],
+            "conversation_id": "1374556341537177604",
+            "created_at": "2021-03-24T02:59:04.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 60,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.7445,
+                        "start": 51,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 7,
+                        "start": 3,
+                        "username": "UPI"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "upi.com/Top_News/World\u2026",
+                        "end": 85,
+                        "expanded_url": "https://www.upi.com/Top_News/World-News/2021/03/23/Egypt-container-ship-blocks-Suez-Canal/4591616550164/?utm_source=dlvr.it&utm_medium=twitter",
+                        "start": 62,
+                        "url": "https://t.co/RMloQhGcOX"
+                    }
+                ]
+            },
+            "id": "1374556341537177604",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 10
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374556209831800836",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @UPI: Grounded container ship blocks traffic on Suez Canal https://t.co/RMloQhGcOX"
+        },
+        {
+            "author_id": "27341666",
+            "conversation_id": "1374556337510756354",
+            "created_at": "2021-03-24T02:59:03.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 12,
+                        "start": 3,
+                        "username": "nameshiv"
+                    }
+                ]
+            },
+            "id": "1374556337510756354",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 28787
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374539405193449472",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "RT @nameshiv: If you think youre having a bad day, spare a thought for the helmsman who somehow managed to stick his giantass ship sideways\u2026"
+        },
+        {
+            "author_id": "1209345568067112960",
+            "conversation_id": "1374556334855647234",
+            "created_at": "2021-03-24T02:59:02.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 138,
+                        "normalized_text": "Suez Cana",
+                        "probability": 0.3289,
+                        "start": 130,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "d_jaishankar"
+                    }
+                ]
+            },
+            "id": "1374556334855647234",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 165
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374518147277938694",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @d_jaishankar: If you\u2019re having a bad day, thank your stars you\u2019re not the captain of the massive ship that has clogged up the Suez Cana\u2026"
+        },
+        {
+            "author_id": "2440699092",
+            "conversation_id": "1374556333425442820",
+            "created_at": "2021-03-24T02:59:02.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 51,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.2299,
+                        "start": 42,
+                        "type": "Organization"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 14,
+                        "start": 3,
+                        "username": "jbillinson"
+                    }
+                ]
+            },
+            "id": "1374556333425442820",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374486685111623694",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @jbillinson: This is how you get to be Suez Canal Employee of the Month"
+        },
+        {
+            "author_id": "420997269",
+            "conversation_id": "1374556331089231876",
+            "created_at": "2021-03-24T02:59:02.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 106,
+                        "normalized_text": "Africa",
+                        "probability": 0.9552,
+                        "start": 101,
+                        "type": "Place"
+                    }
+                ],
+                "hashtags": [
+                    {
+                        "end": 62,
+                        "start": 52,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 16,
+                        "start": 3,
+                        "username": "mercoglianos"
+                    }
+                ]
+            },
+            "id": "1374556331089231876",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 166
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374460607781511170",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @mercoglianos: If your travel today involves the #SuezCanal, there will be a slight detour around Africa.\n\nMV Ever Given of #Evergreenli\u2026"
+        },
+        {
+            "author_id": "282032914",
+            "conversation_id": "1374556329725988868",
+            "created_at": "2021-03-24T02:59:01.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "end": 33,
+                        "start": 23,
+                        "tag": "SuezCanal"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 13,
+                        "start": 3,
+                        "username": "jsrailton"
+                    }
+                ]
+            },
+            "id": "1374556329725988868",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 12213
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374438210315513864",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "RT @jsrailton: So, the #SuezCanal is blocked...\n\nMassive container ship EVER GIVEN stuck in the most awkward way possible.\n\nOngoing for hou\u2026"
+        }
+    ],
+    "meta": {
+        "newest_id": "1374556569426227204",
+        "next_token": "b26v89c19zqg8o3fosqsp6lfl57er2lwiyymsp60vz98d",
+        "oldest_id": "1374556329725988868",
+        "result_count": 98
+    }
+}

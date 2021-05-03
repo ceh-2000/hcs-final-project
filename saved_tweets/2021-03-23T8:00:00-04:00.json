@@ -1,0 +1,206 @@
+{
+    "data": [
+        {
+            "author_id": "1334838757",
+            "conversation_id": "1374342968287580163",
+            "created_at": "2021-03-23T12:51:12.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 15,
+                        "normalized_text": "\u00c1rtico",
+                        "probability": 0.7294,
+                        "start": 10,
+                        "type": "Place"
+                    },
+                    {
+                        "end": 172,
+                        "normalized_text": "Suez",
+                        "probability": 0.4477,
+                        "start": 169,
+                        "type": "Organization"
+                    },
+                    {
+                        "end": 220,
+                        "normalized_text": "\u00c1sia",
+                        "probability": 0.6552,
+                        "start": 217,
+                        "type": "Place"
+                    },
+                    {
+                        "end": 234,
+                        "normalized_text": "Europa",
+                        "probability": 0.8443,
+                        "start": 229,
+                        "type": "Place"
+                    }
+                ],
+                "urls": [
+                    {
+                        "description": "A possibilidade de navegar de forma segura pelo \u00c1rtico com rotas regulares \"faria ao canal do Suez, na passagem do tr\u00e2nsito de mercadorias da \u00c1sia para a Europa, o que o canal do Suez fez \u00e0 rota do Cabo, que deixou de ser t\u00e3o usada para muito tr\u00e2nsito do \u00cdndico para o Atl\u00e2ntico\"",
+                        "display_url": "twib.in/l/M8GGea47jM8M",
+                        "end": 279,
+                        "expanded_url": "http://twib.in/l/M8GGea47jM8M",
+                        "images": [
+                            {
+                                "height": 630,
+                                "url": "https://pbs.twimg.com/news_img/1374342844949860356/rS5aweVz?format=jpg&name=orig",
+                                "width": 1200
+                            },
+                            {
+                                "height": 150,
+                                "url": "https://pbs.twimg.com/news_img/1374342844949860356/rS5aweVz?format=jpg&name=150x150",
+                                "width": 150
+                            }
+                        ],
+                        "start": 256,
+                        "status": 200,
+                        "title": "Degelo no \u00c1rtico abre oportunidade para criar nova rota comercial mar\u00edtima",
+                        "unwound_url": "https://expresso.pt/sociedade/2021-03-23-Degelo-no-Artico-abre-oportunidade-para-criar-nova-rota-comercial-maritima-59646cd0",
+                        "url": "https://t.co/8MtZMHgSkf"
+                    }
+                ]
+            },
+            "id": "1374342968287580163",
+            "lang": "pt",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "reply_settings": "everyone",
+            "source": "Twibble.io",
+            "text": "Degelo no \u00c1rtico abre oportunidade para criar nova rota comercial mar\u00edtima A possibilidade de navegar de forma segura pelo \u00c1rtico com rotas regulares \"faria ao canal do Suez, na passagem do tr\u00e2nsito de mercadorias da \u00c1sia para a Europa, o que o canal d... https://t.co/8MtZMHgSkf"
+        },
+        {
+            "author_id": "126400678",
+            "conversation_id": "1374338856649170949",
+            "created_at": "2021-03-23T12:34:52.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 103,
+                        "normalized_text": "China",
+                        "probability": 0.9913,
+                        "start": 99,
+                        "type": "Place"
+                    },
+                    {
+                        "end": 184,
+                        "normalized_text": "Taiwan",
+                        "probability": 0.9896,
+                        "start": 179,
+                        "type": "Place"
+                    },
+                    {
+                        "end": 193,
+                        "normalized_text": "China",
+                        "probability": 0.9855,
+                        "start": 189,
+                        "type": "Place"
+                    },
+                    {
+                        "end": 261,
+                        "normalized_text": "Pearl Harbor",
+                        "probability": 0.3812,
+                        "start": 250,
+                        "type": "Place"
+                    },
+                    {
+                        "end": 277,
+                        "normalized_text": "Suez Canal",
+                        "probability": 0.5119,
+                        "start": 268,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 6,
+                        "start": 0,
+                        "username": "NFerg"
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "twitter.com/nfergus/status\u2026",
+                        "end": 303,
+                        "expanded_url": "https://twitter.com/nfergus/status/1373787666609700865",
+                        "start": 280,
+                        "url": "https://t.co/H1SQDsP2MV"
+                    }
+                ]
+            },
+            "id": "1374338856649170949",
+            "in_reply_to_user_id": "1471694022",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1373787666609700865",
+                    "type": "quoted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for iPhone",
+            "text": "@nferg invokes Thucydides\u2019 trap and the Suez crisis in this exercise in realpolitik.  But where do China\u2019s wolves fit in his tidy \u2018fox v. hedgehog\u2019 scenario?  I\u2019d love to believe Taiwan is China\u2019s endgame, but history suggests an outcome that\u2019s more Pearl Harbor than Suez Canal. https://t.co/H1SQDsP2MV"
+        },
+        {
+            "author_id": "305328533",
+            "conversation_id": "1374330504149864450",
+            "created_at": "2021-03-23T12:01:40.000Z",
+            "entities": {
+                "urls": [
+                    {
+                        "description": "Royal IHC handed over the new cutter suction dredger Mohab Mameesh to Egypt\u2019s Suez Canal Authority (SCA) on Thursday, March 18. The vessel is now ready for official ..",
+                        "display_url": "ow.ly/WomN50E5UHn",
+                        "end": 163,
+                        "expanded_url": "http://ow.ly/WomN50E5UHn",
+                        "images": [
+                            {
+                                "height": 430,
+                                "url": "https://pbs.twimg.com/news_img/1374330520159522817/tuScTOQX?format=jpg&name=orig",
+                                "width": 860
+                            },
+                            {
+                                "height": 150,
+                                "url": "https://pbs.twimg.com/news_img/1374330520159522817/tuScTOQX?format=jpg&name=150x150",
+                                "width": 150
+                            }
+                        ],
+                        "start": 140,
+                        "status": 200,
+                        "title": "Cutter suction dredger delivered to Suez Canal Authority - Baird Maritime",
+                        "unwound_url": "https://www.bairdmaritime.com/work-boat-world/marine-projects-world/dredging-and-land-reclamation/cutter-suction-dredger-delivered-to-suez-canal-authority/",
+                        "url": "https://t.co/JmGiJNUKun"
+                    }
+                ]
+            },
+            "id": "1374330504149864450",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 0
+            },
+            "reply_settings": "everyone",
+            "source": "Hootsuite Inc.",
+            "text": "The dredger will primarily be deployed to maintain and improve the artificial sea-level area that connects the Mediterranean and Red seas.\n\nhttps://t.co/JmGiJNUKun"
+        }
+    ],
+    "meta": {
+        "newest_id": "1374342968287580163",
+        "oldest_id": "1374330504149864450",
+        "result_count": 3
+    }
+}

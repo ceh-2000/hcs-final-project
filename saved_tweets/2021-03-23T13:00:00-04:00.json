@@ -1,0 +1,131 @@
+{
+    "data": [
+        {
+            "author_id": "2563493834",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations",
+                        "id": "66",
+                        "name": "Interests and Hobbies Category"
+                    },
+                    "entity": {
+                        "id": "1206695792582414336",
+                        "name": "Railway transport"
+                    }
+                }
+            ],
+            "conversation_id": "1374412935406088198",
+            "created_at": "2021-03-23T17:29:13.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "end": 15,
+                        "start": 3,
+                        "username": "TrumanEllis"
+                    },
+                    {
+                        "end": 28,
+                        "start": 17,
+                        "username": "TonyMurega"
+                    }
+                ]
+            },
+            "id": "1374412935406088198",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 0,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374410951617736705",
+                    "type": "retweeted"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "RT @TrumanEllis: @TonyMurega Especially if it's a railway that only brings in goods and has nothing to take back. If a canal like the suez\u2026"
+        },
+        {
+            "author_id": "1110462332319252480",
+            "context_annotations": [
+                {
+                    "domain": {
+                        "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations",
+                        "id": "66",
+                        "name": "Interests and Hobbies Category"
+                    },
+                    "entity": {
+                        "id": "1206695792582414336",
+                        "name": "Railway transport"
+                    }
+                }
+            ],
+            "conversation_id": "1374401692104491011",
+            "created_at": "2021-03-23T17:21:20.000Z",
+            "entities": {
+                "annotations": [
+                    {
+                        "end": 135,
+                        "normalized_text": "egypt",
+                        "probability": 0.7863,
+                        "start": 131,
+                        "type": "Place"
+                    }
+                ],
+                "mentions": [
+                    {
+                        "end": 11,
+                        "start": 0,
+                        "username": "TonyMurega"
+                    }
+                ]
+            },
+            "id": "1374410951617736705",
+            "in_reply_to_user_id": "2563493834",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 5,
+                "quote_count": 0,
+                "reply_count": 0,
+                "retweet_count": 1
+            },
+            "referenced_tweets": [
+                {
+                    "id": "1374401692104491011",
+                    "type": "replied_to"
+                }
+            ],
+            "reply_settings": "everyone",
+            "source": "Twitter for Android",
+            "text": "@TonyMurega Especially if it's a railway that only brings in goods and has nothing to take back. If a canal like the suez canal in egypt would be built in the northern region for purposes of irrigation and expand agriculture then such an infrustructure would be viable"
+        },
+        {
+            "author_id": "1004330823045275649",
+            "conversation_id": "1374408129341915136",
+            "created_at": "2021-03-23T17:10:07.000Z",
+            "id": "1374408129341915136",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+                "like_count": 5,
+                "quote_count": 1,
+                "reply_count": 2,
+                "retweet_count": 1
+            },
+            "reply_settings": "everyone",
+            "source": "Twitter Web App",
+            "text": "At 0745 UTC +2 M/V EVER GIVEN ran aground at km.151 in the Suez Canal as part of the northbound convoy. Tug boats are currently trying to re-float the vessel.\n\nThe 14 remaining vessels in the northbound convoy have dropped anchor until further instructions."
+        }
+    ],
+    "meta": {
+        "newest_id": "1374412935406088198",
+        "oldest_id": "1374408129341915136",
+        "result_count": 3
+    }
+}
