@@ -43,7 +43,8 @@ class _Main extends State<Main> {
   Color color2 = Color.fromRGBO(43, 122, 120, 1.0);
   Color textColor = Color.fromRGBO(23, 37, 42, 1.0);
 
-  final _key = GlobalKey();
+  GlobalKey<CenterPanelState> _keyCenterPanel = GlobalKey();
+
 
   int _index = 0;
 
@@ -57,7 +58,7 @@ class _Main extends State<Main> {
   void _updateIndex(int index){
     setState(() {
       _index += index;
-      print(_index);
+      _keyCenterPanel.currentState!.updateIndex(_index);
     });
   }
 
@@ -125,8 +126,9 @@ class _Main extends State<Main> {
                                   Flexible(
                                       flex: 3,
                                       child: CenterPanel(
-                                          currentTweetBlock:
-                                          _finalTweetBlocks[_index],
+                                        key: _keyCenterPanel,
+                                          tweetBlocks:
+                                          _finalTweetBlocks,
                                           index: _index,
                                           onChanged: _updateIndex
                                       )),

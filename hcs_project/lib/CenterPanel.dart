@@ -7,20 +7,20 @@ import 'TweetBlock.dart';
 class CenterPanel extends StatefulWidget {
   CenterPanel(
       {Key? key,
-      required this.currentTweetBlock,
+      required this.tweetBlocks,
       required this.index,
       required this.onChanged})
       : super(key: key);
 
-  TweetBlock currentTweetBlock;
+  List<TweetBlock> tweetBlocks;
   final ValueChanged<int> onChanged;
   int index;
 
   @override
-  _CenterPanel createState() => _CenterPanel(currentTweetBlock);
+  CenterPanelState createState() => CenterPanelState(tweetBlocks);
 }
 
-class _CenterPanel extends State<CenterPanel> {
+class CenterPanelState extends State<CenterPanel> {
   ///////////////////////////////////////////////////
   // Constructors, initializers, and manage states
 
@@ -30,21 +30,20 @@ class _CenterPanel extends State<CenterPanel> {
   Color color2 = Color.fromRGBO(43, 122, 120, 1.0);
   Color textColor = Color.fromRGBO(23, 37, 42, 1.0);
 
-  // Initialize default tweet block
-  TweetBlock _currentTweetBlock = TweetBlock(
-      0.1,
-      0.2,
-      'March 23 00:00-06:00',
-      0,
-      '0.png',
-      ['hello', 'what is up', 'nothing'],
-      ['hello', 'tweet', 'tweet']);
+  int _index = 0;
+  List<TweetBlock> _tweetBlocks = [];
 
   @override
   void initState() {}
 
-  _CenterPanel(currentTweetBlock) {
-    _currentTweetBlock = currentTweetBlock;
+  CenterPanelState(tweetBlocks) {
+    _tweetBlocks = tweetBlocks;
+  }
+
+  void updateIndex(int index) {
+    setState(() {
+      _index = index;
+    });
   }
 
   void _handleTapLeft() {
@@ -207,7 +206,7 @@ class _CenterPanel extends State<CenterPanel> {
             child: Center(
                 child: Padding(
               padding: EdgeInsets.all(10.0),
-              child: tweetBlockCard(_currentTweetBlock),
+              child: tweetBlockCard(_tweetBlocks[_index]),
             ))));
   }
 }
