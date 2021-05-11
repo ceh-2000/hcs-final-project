@@ -46,20 +46,6 @@ class CenterPanelState extends State<CenterPanel> {
     });
   }
 
-  void _handleTapLeft() {
-    print('Left');
-    if (widget.index > 0) {
-      widget.onChanged(-1);
-    }
-  }
-
-  void _handleTapRight() {
-    print('Right');
-    if (widget.index < 27) {
-      widget.onChanged(1);
-    }
-  }
-
   String formatEntities(List<String> entities) {
     String stringToReturn = '';
     int counter = 0;
@@ -168,27 +154,12 @@ class CenterPanelState extends State<CenterPanel> {
                             color: background2,
                             border: Border.all(color: color2, width: 3.0)),
                         child: Center(
-                            child: Text(formatTweets(tweetBlock.getTweets())))))
+                            child: new SingleChildScrollView(
+                                child: Text(
+                                    formatTweets(tweetBlock.getTweets()),
+                                    style: TextStyle(fontSize: 15.0))))))
               ],
             )),
-        Flexible(
-            flex: 1,
-            child: Row(
-              children: [
-                ElevatedButton(
-                  child: Text('Left'),
-                  onPressed: () {
-                    _handleTapLeft();
-                  },
-                ),
-                ElevatedButton(
-                  child: Text('Right'),
-                  onPressed: () {
-                    _handleTapRight();
-                  },
-                )
-              ],
-            ))
       ],
     );
   }

@@ -44,7 +44,7 @@ class _Main extends State<Main> {
   Color textColor = Color.fromRGBO(23, 37, 42, 1.0);
 
   GlobalKey<CenterPanelState> _keyCenterPanel = GlobalKey();
-
+  GlobalKey<CenterPanelState> _keyBottomPanel = GlobalKey();
 
   int _index = 0;
 
@@ -59,6 +59,15 @@ class _Main extends State<Main> {
     setState(() {
       _index += index;
       _keyCenterPanel.currentState!.updateIndex(_index);
+      _keyBottomPanel.currentState!.updateIndex(_index);
+    });
+  }
+
+  void _updateIndex2(int index){
+    setState(() {
+      _index = index;
+      _keyCenterPanel.currentState!.updateIndex(_index);
+      _keyBottomPanel.currentState!.updateIndex(_index);
     });
   }
 
@@ -130,11 +139,17 @@ class _Main extends State<Main> {
                                           tweetBlocks:
                                           _finalTweetBlocks,
                                           index: _index,
-                                          onChanged: _updateIndex
+                                          onChanged: _updateIndex2
                                       )),
                                   Flexible(flex: 2, child: RightPanel())
                                 ])),
-                        Flexible(flex: 1, child: BottomPanel())
+                        Flexible(flex: 1, child: BottomPanel(
+                            key: _keyBottomPanel,
+                            tweetBlocks:
+                            _finalTweetBlocks,
+                            index: _index,
+                            onChanged: _updateIndex2
+                        ))
                       ])),
                 );
               }

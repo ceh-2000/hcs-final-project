@@ -2,12 +2,25 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+import 'TweetBlock.dart';
+
 class BottomPanel extends StatefulWidget {
+  BottomPanel(
+      {Key? key,
+      required this.tweetBlocks,
+      required this.index,
+      required this.onChanged})
+      : super(key: key);
+
+  List<TweetBlock> tweetBlocks;
+  final ValueChanged<int> onChanged;
+  int index;
+
   @override
-  _BottomPanel createState() => _BottomPanel();
+  BottomPanelState createState() => BottomPanelState(tweetBlocks);
 }
 
-class _BottomPanel extends State<BottomPanel> {
+class BottomPanelState extends State<BottomPanel> {
   ///////////////////////////////////////////////////
   // Constructors, initializers, and manage states
 
@@ -17,31 +30,64 @@ class _BottomPanel extends State<BottomPanel> {
   Color color2 = Color.fromRGBO(43, 122, 120, 1.0);
   Color textColor = Color.fromRGBO(23, 37, 42, 1.0);
 
+  int _index = 0;
+  List<TweetBlock> _tweetBlocks = [];
+
   @override
   void initState() {}
 
-  _BottomPanel() {}
+  BottomPanelState(tweetBlocks) {
+    _tweetBlocks = tweetBlocks;
+  }
+
+  void updateIndex(int index) {
+    setState(() {
+      _index = index;
+    });
+  }
+
+  String _formateDateTime(String datetime) {
+    String finalString = '';
+    List<String> listdatetime = datetime.split(' ');
+    finalString += listdatetime[0] + ' ' + listdatetime[1] + '\n';
+    List<String> splitagain = listdatetime[3].split('\-');
+    finalString += splitagain[0] + '-\n' + splitagain[1];
+
+    return finalString;
+  }
+
+  Widget _getTimelineWidgets() {
+    return SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(
+            children: _tweetBlocks
+                .map((item) => Container(
+                    margin: EdgeInsets.all(5.0),
+                    child: ElevatedButton(
+                        onPressed: () {
+                          widget.onChanged(item.getIndex());
+                        },
+                        child: Padding(
+                            padding: EdgeInsets.all(5.0),
+                            child: Center(
+                                child: Text(
+                              _formateDateTime(item.getDate()),
+                              textAlign: TextAlign.center,
+                            ))))))
+                .toList()));
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: background1,
-        body: Container(
+      backgroundColor: background1,
+      body: Container(
           margin: const EdgeInsets.all(15.0),
           padding: const EdgeInsets.all(3.0),
           decoration: BoxDecoration(
               color: background2,
               border: Border.all(color: color2, width: 6.0)),
-          child: Center(
-              child: Padding(
-                  padding: EdgeInsets.all(20.0),
-                  child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: <Widget>[
-                        Text('Interactive Timeline',
-                            style: TextStyle(color: textColor, fontSize: 20)),
-                      ]))),
-        ));
+          child: Center(child: _getTimelineWidgets())),
+    );
   }
 }
