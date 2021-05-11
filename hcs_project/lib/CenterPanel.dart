@@ -5,9 +5,16 @@ import 'package:flutter/material.dart';
 import 'TweetBlock.dart';
 
 class CenterPanel extends StatefulWidget {
-  TweetBlock currentTweetBlock;
+  CenterPanel(
+      {Key? key,
+      required this.currentTweetBlock,
+      required this.index,
+      required this.onChanged})
+      : super(key: key);
 
-  CenterPanel({required this.currentTweetBlock});
+  TweetBlock currentTweetBlock;
+  final ValueChanged<int> onChanged;
+  int index;
 
   @override
   _CenterPanel createState() => _CenterPanel(currentTweetBlock);
@@ -24,15 +31,34 @@ class _CenterPanel extends State<CenterPanel> {
   Color textColor = Color.fromRGBO(23, 37, 42, 1.0);
 
   // Initialize default tweet block
-  TweetBlock _currentTweetBlock = TweetBlock(0.1, 0.2, 'March 23 00:00-06:00', 0, '0.png',
-      ['hello', 'what is up', 'nothing'], ['hello', 'tweet', 'tweet']);
+  TweetBlock _currentTweetBlock = TweetBlock(
+      0.1,
+      0.2,
+      'March 23 00:00-06:00',
+      0,
+      '0.png',
+      ['hello', 'what is up', 'nothing'],
+      ['hello', 'tweet', 'tweet']);
 
   @override
   void initState() {}
 
   _CenterPanel(currentTweetBlock) {
     _currentTweetBlock = currentTweetBlock;
+  }
 
+  void _handleTapLeft() {
+    print('Left');
+    if (widget.index > 0) {
+      widget.onChanged(-1);
+    }
+  }
+
+  void _handleTapRight() {
+    print('Right');
+    if (widget.index < 27) {
+      widget.onChanged(1);
+    }
   }
 
   String formatEntities(List<String> entities) {
@@ -67,7 +93,7 @@ class _CenterPanel extends State<CenterPanel> {
     return Column(
       children: <Widget>[
         Flexible(
-            flex: 1,
+            flex: 2,
             child: Row(
               children: <Widget>[
                 Flexible(
@@ -101,7 +127,7 @@ class _CenterPanel extends State<CenterPanel> {
               ],
             )),
         Flexible(
-            flex: 3,
+            flex: 7,
             child: Row(
               children: <Widget>[
                 Flexible(
@@ -131,7 +157,7 @@ class _CenterPanel extends State<CenterPanel> {
               ],
             )),
         Flexible(
-            flex: 2,
+            flex: 5,
             child: Row(
               children: <Widget>[
                 Flexible(
@@ -146,6 +172,24 @@ class _CenterPanel extends State<CenterPanel> {
                             child: Text(formatTweets(tweetBlock.getTweets())))))
               ],
             )),
+        Flexible(
+            flex: 1,
+            child: Row(
+              children: [
+                ElevatedButton(
+                  child: Text('Left'),
+                  onPressed: () {
+                    _handleTapLeft();
+                  },
+                ),
+                ElevatedButton(
+                  child: Text('Right'),
+                  onPressed: () {
+                    _handleTapRight();
+                  },
+                )
+              ],
+            ))
       ],
     );
   }

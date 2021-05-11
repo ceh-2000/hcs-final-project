@@ -43,34 +43,54 @@ class _Main extends State<Main> {
   Color color2 = Color.fromRGBO(43, 122, 120, 1.0);
   Color textColor = Color.fromRGBO(23, 37, 42, 1.0);
 
+  final _key = GlobalKey();
+
+  int _index = 0;
+
+  List<TweetBlock> _finalTweetBlocks = [];
+
   @override
   void initState() {}
 
   _Main() {}
 
+  void _updateIndex(int index){
+    setState(() {
+      _index += index;
+      print(_index);
+    });
+  }
+
   // Read in list with flutter
   // https://www.kindacode.com/article/flutter-load-and-display-content-from-csv-files/
   Future<List<TweetBlock>> _loadCSV() async {
-    final _rawData = await rootBundle.loadString('assets/files/tweet_blocks.csv');
+    final _rawData =
+    await rootBundle.loadString('assets/files/tweet_blocks.csv');
     List<List<dynamic>> listData = CsvToListConverter().convert(_rawData);
-
 
     List<TweetBlock> listOfTweetBlocks = [];
     int counter = 0;
-    listData.forEach((List<dynamic> row){
-      if(counter > 0 && counter < 29){
+    listData.forEach((List<dynamic> row) {
+      if (counter > 0 && counter < 29) {
         int index = row[0].toInt();
         String date = row[1].toString();
         double polarity = row[2].toDouble();
         double subjectivity = row[3].toDouble();
-        String imageURL = index.toString()+'.png';
+        String imageURL = index.toString() + '.png';
         List<String> entities = row[5].split(',');
         List<String> tweets = [];
         tweets.add(row[6].toString());
         tweets.add(row[7].toString());
         tweets.add(row[8].toString());
 
-        listOfTweetBlocks.add(TweetBlock(polarity, subjectivity, date, index, imageURL, entities, tweets));
+        listOfTweetBlocks.add(TweetBlock(
+            polarity,
+            subjectivity,
+            date,
+            index,
+            imageURL,
+            entities,
+            tweets));
       }
       counter += 1;
     });
@@ -80,18 +100,16 @@ class _Main extends State<Main> {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
         backgroundColor: background1,
         body: FutureBuilder(
             future: _loadCSV(),
-            builder: (BuildContext context, AsyncSnapshot<List<TweetBlock>> tweetBlocks) {
-
-              if(tweetBlocks.data == null){
+            builder: (BuildContext context,
+                AsyncSnapshot<List<TweetBlock>> tweetBlocks) {
+              if (tweetBlocks.data == null) {
                 return CircularProgressIndicator();
-              }
-              else{
-                List<TweetBlock> finalTweetBlocks = tweetBlocks.data!;
+              } else {
+                List<TweetBlock> _finalTweetBlocks = tweetBlocks.data!;
 
                 return Center(
                   child: Padding(
@@ -104,14 +122,20 @@ class _Main extends State<Main> {
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 children: <Widget>[
                                   Flexible(flex: 2, child: LeftPanel()),
-                                  Flexible(flex: 3, child: CenterPanel(currentTweetBlock: finalTweetBlocks[26])),
+                                  Flexible(
+                                      flex: 3,
+                                      child: CenterPanel(
+                                          currentTweetBlock:
+                                          _finalTweetBlocks[_index],
+                                          index: _index,
+                                          onChanged: _updateIndex
+                                      )),
                                   Flexible(flex: 2, child: RightPanel())
                                 ])),
                         Flexible(flex: 1, child: BottomPanel())
                       ])),
                 );
               }
-
             }));
   }
 }
