@@ -46,11 +46,59 @@ class CenterPanelState extends State<CenterPanel> {
     });
   }
 
-  String formatEntities(String entities) {
+  String formatIndividualEntities(List<dynamic> entityList){
+    String finalString = '\n';
+    entityList.forEach((element) {
+      finalString += '- '+element+'\n';
+    });
+    return finalString;
+  }
+
+  Widget formatEntities(String entities) {
     var parsedJson = json.decode(entities);
     String stringToReturn = parsedJson.toString();
 
-    return stringToReturn;
+    return ListView(
+      children: <Widget>[
+        Container(
+          padding: EdgeInsets.all(5.0),
+          color: background2,
+          child: Center(
+              child: Text("Entities",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold))),
+        ),
+        Container(
+          padding: EdgeInsets.all(5.0),
+          color: background1,
+          child: Text(
+            "PEOPLE: "+formatIndividualEntities(parsedJson["PERSON"]),
+            textAlign: TextAlign.left,
+          ),
+        ),
+        Container(
+          padding: EdgeInsets.all(5.0),
+          color: background2,
+          child: Text(
+            "NORP: "+formatIndividualEntities(parsedJson["NORP"]),
+            textAlign: TextAlign.left,
+          ),
+        ),
+        Container(
+            padding: EdgeInsets.all(5.0),
+            color: background1,
+            child: Text(
+              "ORG: "+formatIndividualEntities(parsedJson["ORG"]),
+              textAlign: TextAlign.left,
+            )),
+        Container(
+            padding: EdgeInsets.all(5.0),
+            color: background2,
+            child: Text(
+              "LOC: "+formatIndividualEntities(parsedJson["LOC"]),
+              textAlign: TextAlign.left,
+            )),
+      ],
+    );
   }
 
   Widget tweetBlockCard(TweetBlock tweetBlock) {
@@ -111,13 +159,11 @@ class CenterPanelState extends State<CenterPanel> {
                     flex: 1,
                     child: Container(
                         margin: const EdgeInsets.all(5.0),
-                        padding: const EdgeInsets.all(3.0),
                         decoration: BoxDecoration(
                             color: background2,
                             border: Border.all(color: color2, width: 3.0)),
                         child: Center(
-                            child: Text(
-                                formatEntities(tweetBlock.getEntities())))))
+                            child: formatEntities(tweetBlock.getEntities()))))
               ],
             )),
         Flexible(
