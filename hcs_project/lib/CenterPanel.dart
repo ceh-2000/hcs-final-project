@@ -1,5 +1,5 @@
-import 'dart:async';
-import 'package:csv/csv.dart';
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 
 import 'TweetBlock.dart';
@@ -46,17 +46,10 @@ class CenterPanelState extends State<CenterPanel> {
     });
   }
 
-  String formatEntities(List<String> entities) {
-    String stringToReturn = '';
-    int counter = 0;
-    entities.forEach((String entity) {
-      if (counter != entities.length - 1) {
-        stringToReturn += entity + '\n';
-      } else {
-        stringToReturn += entity;
-      }
-      counter += 1;
-    });
+  String formatEntities(String entities) {
+    var parsedJson = json.decode(entities);
+    String stringToReturn = parsedJson.toString();
+
     return stringToReturn;
   }
 
@@ -145,26 +138,34 @@ class CenterPanelState extends State<CenterPanel> {
                               padding: EdgeInsets.all(5.0),
                               color: background2,
                               child: Center(
-                                  child: Text("Tweet Sample", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold))),
+                                  child: Text("Tweet Sample",
+                                      style: TextStyle(
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.bold))),
                             ),
                             Container(
                               padding: EdgeInsets.all(5.0),
                               color: background1,
-                              child: Center(
-                                  child: Text(tweetBlock.getTweets()[0])),
+                              child: Text(
+                                tweetBlock.getTweets()[0],
+                                textAlign: TextAlign.left,
+                              ),
                             ),
                             Container(
                               padding: EdgeInsets.all(5.0),
                               color: background2,
-                              child: Center(
-                                  child: Text(tweetBlock.getTweets()[1])),
+                              child: Text(
+                                tweetBlock.getTweets()[1],
+                                textAlign: TextAlign.left,
+                              ),
                             ),
                             Container(
-                              padding: EdgeInsets.all(5.0),
-                              color: background1,
-                              child: Center(
-                                  child: Text(tweetBlock.getTweets()[2])),
-                            ),
+                                padding: EdgeInsets.all(5.0),
+                                color: background1,
+                                child: Text(
+                                  tweetBlock.getTweets()[2],
+                                  textAlign: TextAlign.left,
+                                )),
                           ],
                         ))))
               ],

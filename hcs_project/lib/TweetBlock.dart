@@ -4,11 +4,11 @@ class TweetBlock {
   String _date = '';
   int _index = 0;
   String _image = '';
-  List<String> _entities = [];
+  String _entities = '';
   List<String> _tweets = [];
 
   TweetBlock(double polarity, double subjectivity, String date, int index,
-      String image, List<String> entities, List<String> tweets) {
+      String image, String entities, List<String> tweets) {
     _polarity = polarity;
     _subjectivity = subjectivity;
     _date = date;
@@ -38,7 +38,7 @@ class TweetBlock {
     return _image;
   }
 
-  List<String> getEntities() {
+  String getEntities() {
     return _entities;
   }
 

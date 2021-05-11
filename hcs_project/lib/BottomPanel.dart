@@ -43,7 +43,6 @@ class BottomPanelState extends State<BottomPanel> {
   void updateIndex(int index) {
     setState(() {
       _index = index;
-      print(_index);
     });
   }
 

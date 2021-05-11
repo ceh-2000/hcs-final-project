@@ -80,7 +80,7 @@ class _Main extends State<Main> {
         double polarity = row[2].toDouble();
         double subjectivity = row[3].toDouble();
         String imageURL = index.toString() + '.png';
-        List<String> entities = row[5].split(',');
+        String entities = row[5].toString();
         List<String> tweets = [];
         tweets.add(row[6].toString());
         tweets.add(row[7].toString());
