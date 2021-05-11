@@ -71,7 +71,7 @@ class CenterPanelState extends State<CenterPanel> {
           padding: EdgeInsets.all(5.0),
           color: background1,
           child: Text(
-            "PEOPLE: "+formatIndividualEntities(parsedJson["PERSON"]),
+            "People, including fictional: "+formatIndividualEntities(parsedJson["PERSON"]),
             textAlign: TextAlign.left,
           ),
         ),
@@ -79,7 +79,7 @@ class CenterPanelState extends State<CenterPanel> {
           padding: EdgeInsets.all(5.0),
           color: background2,
           child: Text(
-            "NORP: "+formatIndividualEntities(parsedJson["NORP"]),
+            "Nationalities or religious or political groups: "+formatIndividualEntities(parsedJson["NORP"]),
             textAlign: TextAlign.left,
           ),
         ),
@@ -87,14 +87,14 @@ class CenterPanelState extends State<CenterPanel> {
             padding: EdgeInsets.all(5.0),
             color: background1,
             child: Text(
-              "ORG: "+formatIndividualEntities(parsedJson["ORG"]),
+              "Companies, agencies, institutions, etc.: "+formatIndividualEntities(parsedJson["ORG"]),
               textAlign: TextAlign.left,
             )),
         Container(
             padding: EdgeInsets.all(5.0),
             color: background2,
             child: Text(
-              "LOC: "+formatIndividualEntities(parsedJson["LOC"]),
+              "Non-GPE locations, mountain ranges, bodies of water: "+formatIndividualEntities(parsedJson["LOC"]),
               textAlign: TextAlign.left,
             )),
       ],

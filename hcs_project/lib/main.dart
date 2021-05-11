@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:csv/csv.dart';
 
+import 'About.dart';
 import 'LeftPanel.dart';
 import 'CenterPanel.dart';
 import 'RightPanel.dart';
@@ -17,14 +18,15 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return (new Material(
+        child: MaterialApp(
       title: 'Suez Canal Tweets',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.green,
       ),
       home: Main(),
-    );
+    )));
   }
 }
 
@@ -55,12 +57,10 @@ class _Main extends State<Main> {
 
   _Main() {}
 
-
-  void _updateIndex2(int index){
+  void _updateIndex2(int index) {
     setState(() {
       _index = index;
       _keyCenterPanel.currentState!.updateIndex(_index);
-      // _keyBottomPanel.currentState!.updateIndex(_index);
     });
   }
 
@@ -68,7 +68,7 @@ class _Main extends State<Main> {
   // https://www.kindacode.com/article/flutter-load-and-display-content-from-csv-files/
   Future<List<TweetBlock>> _loadCSV() async {
     final _rawData =
-    await rootBundle.loadString('assets/files/tweet_blocks.csv');
+        await rootBundle.loadString('assets/files/tweet_blocks.csv');
     List<List<dynamic>> listData = CsvToListConverter().convert(_rawData);
 
     List<TweetBlock> listOfTweetBlocks = [];
@@ -87,13 +87,7 @@ class _Main extends State<Main> {
         tweets.add(row[8].toString());
 
         listOfTweetBlocks.add(TweetBlock(
-            polarity,
-            subjectivity,
-            date,
-            index,
-            imageURL,
-            entities,
-            tweets));
+            polarity, subjectivity, date, index, imageURL, entities, tweets));
       }
       counter += 1;
     });
@@ -114,10 +108,12 @@ class _Main extends State<Main> {
               } else {
                 List<TweetBlock> _finalTweetBlocks = tweetBlocks.data!;
 
-                return Center(
-                  child: Padding(
-                      padding: EdgeInsets.all(20.0),
-                      child: Column(children: <Widget>[
+                return Stack(
+                  children: [
+                    Container(
+                      padding: EdgeInsets.all(10.0),
+                      child: Center(
+                          child: Column(children: <Widget>[
                         Flexible(
                             flex: 6,
                             child: Row(
@@ -128,22 +124,41 @@ class _Main extends State<Main> {
                                   Flexible(
                                       flex: 3,
                                       child: CenterPanel(
-                                        key: _keyCenterPanel,
-                                          tweetBlocks:
-                                          _finalTweetBlocks,
+                                          key: _keyCenterPanel,
+                                          tweetBlocks: _finalTweetBlocks,
                                           index: _index,
-                                          onChanged: _updateIndex2
-                                      )),
+                                          onChanged: _updateIndex2)),
                                   Flexible(flex: 2, child: RightPanel())
                                 ])),
-                        Flexible(flex: 1, child: BottomPanel(
-                            key: _keyBottomPanel,
-                            tweetBlocks:
-                            _finalTweetBlocks,
-                            index: _index,
-                            onChanged: _updateIndex2
-                        ))
+                        Flexible(
+                            flex: 1,
+                            child: BottomPanel(
+                                key: _keyBottomPanel,
+                                tweetBlocks: _finalTweetBlocks,
+                                index: _index,
+                                onChanged: _updateIndex2))
                       ])),
+                    ),
+                    Positioned(
+                        top: -20.0,
+                        right: 52,
+                        child: Hero(
+                            tag: 'more',
+                            child: IconButton(
+                                padding: EdgeInsets.all(0),
+                                color: color1,
+                                iconSize: 70,
+                                onPressed: () {
+                                  Navigator.push(
+                                    context,
+                                    PageRouteBuilder(
+                                        transitionDuration:
+                                            Duration(seconds: 1),
+                                        pageBuilder: (_, __, ___) => About()),
+                                  );
+                                },
+                                icon: Icon(Icons.bookmark))))
+                  ],
                 );
               }
             }));
