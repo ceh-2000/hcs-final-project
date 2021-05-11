@@ -55,19 +55,12 @@ class _Main extends State<Main> {
 
   _Main() {}
 
-  void _updateIndex(int index){
-    setState(() {
-      _index += index;
-      _keyCenterPanel.currentState!.updateIndex(_index);
-      _keyBottomPanel.currentState!.updateIndex(_index);
-    });
-  }
 
   void _updateIndex2(int index){
     setState(() {
       _index = index;
       _keyCenterPanel.currentState!.updateIndex(_index);
-      _keyBottomPanel.currentState!.updateIndex(_index);
+      // _keyBottomPanel.currentState!.updateIndex(_index);
     });
   }
 

@@ -60,20 +60,6 @@ class CenterPanelState extends State<CenterPanel> {
     return stringToReturn;
   }
 
-  String formatTweets(List<String> tweets) {
-    String stringToReturn = '';
-    int counter = 0;
-    tweets.forEach((String tweet) {
-      if (counter != tweets.length - 1) {
-        stringToReturn += tweet + '\n\n';
-      } else {
-        stringToReturn += tweet;
-      }
-      counter += 1;
-    });
-    return stringToReturn;
-  }
-
   Widget tweetBlockCard(TweetBlock tweetBlock) {
     return Column(
       children: <Widget>[
@@ -149,15 +135,38 @@ class CenterPanelState extends State<CenterPanel> {
                     flex: 1,
                     child: Container(
                         margin: const EdgeInsets.all(5.0),
-                        padding: const EdgeInsets.all(3.0),
                         decoration: BoxDecoration(
                             color: background2,
                             border: Border.all(color: color2, width: 3.0)),
                         child: Center(
-                            child: new SingleChildScrollView(
-                                child: Text(
-                                    formatTweets(tweetBlock.getTweets()),
-                                    style: TextStyle(fontSize: 15.0))))))
+                            child: ListView(
+                          children: <Widget>[
+                            Container(
+                              padding: EdgeInsets.all(5.0),
+                              color: background2,
+                              child: Center(
+                                  child: Text("Tweet Sample", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold))),
+                            ),
+                            Container(
+                              padding: EdgeInsets.all(5.0),
+                              color: background1,
+                              child: Center(
+                                  child: Text(tweetBlock.getTweets()[0])),
+                            ),
+                            Container(
+                              padding: EdgeInsets.all(5.0),
+                              color: background2,
+                              child: Center(
+                                  child: Text(tweetBlock.getTweets()[1])),
+                            ),
+                            Container(
+                              padding: EdgeInsets.all(5.0),
+                              color: background1,
+                              child: Center(
+                                  child: Text(tweetBlock.getTweets()[2])),
+                            ),
+                          ],
+                        ))))
               ],
             )),
       ],
@@ -169,7 +178,7 @@ class CenterPanelState extends State<CenterPanel> {
     return Scaffold(
         backgroundColor: background1,
         body: Container(
-            margin: const EdgeInsets.all(10.0),
+            margin: const EdgeInsets.all(15.0),
             padding: const EdgeInsets.all(3.0),
             decoration: BoxDecoration(
                 color: background2,

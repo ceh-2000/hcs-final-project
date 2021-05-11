@@ -43,6 +43,7 @@ class BottomPanelState extends State<BottomPanel> {
   void updateIndex(int index) {
     setState(() {
       _index = index;
+      print(_index);
     });
   }
 
@@ -63,9 +64,12 @@ class BottomPanelState extends State<BottomPanel> {
             children: _tweetBlocks
                 .map((item) => Container(
                     margin: EdgeInsets.all(5.0),
-                    child: ElevatedButton(
+                    child: MaterialButton(
+                        hoverColor:  _index == item.getIndex() ? color1 : background1,
+                        color: _index == item.getIndex() ? color1 : background2,
                         onPressed: () {
                           widget.onChanged(item.getIndex());
+                          updateIndex(item.getIndex());
                         },
                         child: Padding(
                             padding: EdgeInsets.all(5.0),
@@ -73,6 +77,7 @@ class BottomPanelState extends State<BottomPanel> {
                                 child: Text(
                               _formateDateTime(item.getDate()),
                               textAlign: TextAlign.center,
+                                  style: TextStyle(color: textColor),
                             ))))))
                 .toList()));
   }
