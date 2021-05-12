@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
-import 'package:csv/csv.dart';
-
-import 'LeftPanel.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'CenterPanel.dart';
-import 'RightPanel.dart';
-import 'BottomPanel.dart';
 import 'TweetBlock.dart';
 
 class About extends StatefulWidget {
@@ -34,6 +29,9 @@ class _About extends State<About> {
   void initState() {}
 
   _About() {}
+
+  void _launchURL(String url) async =>
+      await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
 
   @override
   Widget build(BuildContext context) {
@@ -110,6 +108,83 @@ class _About extends State<About> {
                           Text(
                               "I wrote my own Flutter website to display my analysis findings. I copied my original design exactly and was honestly surprised that I could get everything to work.\n\nI had the most trouble allowing the clickable bottom panel to control which tweet block was displayed in the center panel. I spent over two hours researching how to allow parent widgets to send information to a particular child widget until I realized I need to remove an underscore. This allowed me to assign a global key to the Center Panel widget to call the `updateIndex` function in `CenterPanelState`. I sent information from the child widget Bottom Panel to the parent widget Main using callback functions, which was a new experience for me.\n\nIt was also my first time implementing animations. The transition from the `Main` page to this `About` page uses a hero animation.\n\nIn the past I have created websites using raw HTML, JavaScript, and CSS. Using Flutter for web produced, in my opinion, a much cleaner website because it uses some premade widgets and a consistent Material design scheme. I would definitely make another website with Flutter, and next time I will bypass the challenges related to parent/child widget communication.",
                               style: TextStyle(color: textColor, fontSize: 18)),
+                          Text("\nResources",
+                              style: TextStyle(
+                                  color: textColor,
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.bold)),
+                          InkWell(
+                              child: new Text('Github repository for this project',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://github.com/ceh-2000/hcs-final-project')
+                          ),
+                          InkWell(
+                              child: new Text('Global Times article',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://www.globaltimes.cn/page/202103/1219660.shtml')
+                          ),
+                          InkWell(
+                              child: new Text('Britannica Suez Canal overview',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://www.britannica.com/topic/Suez-Canal/The-economy')
+                          ),
+                          InkWell(
+                              child: new Text('New York Times article',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://www.nytimes.com/2021/03/25/world/middleeast/suez-canal-container-ship.html?auth=login-google')
+                          ),
+                          InkWell(
+                              child: new Text('Twitter API dashboard',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://developer.twitter.com/en/portal/dashboard')
+                          ),
+                          InkWell(
+                              child: new Text('Python + Twitter tutorial',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://towardsdatascience.com/searching-for-tweets-with-python-f659144b225f')
+                          ),
+                          InkWell(
+                              child: new Text('Recent Search tweets',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-recent#tab2')
+                          ),
+                          InkWell(
+                              child: new Text('Flutter for web introduction',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://medium.com/flutter-community/flutter-for-web-building-a-portfolio-website-3e9865710efe')
+                          ),
+                          InkWell(
+                              child: new Text('Parent/child widget interactions',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://medium.com/flutter-community/flutter-communication-between-widgets-f5590230df1e')
+                          ),
+                          InkWell(
+                              child: new Text('Hero animations',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://flutter.dev/docs/development/ui/animations/hero-animations')
+                          ),
+                          InkWell(
+                              child: new Text('Publish Flutter web app with Firebase hosting',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://medium.com/flutter/must-try-use-firebase-to-host-your-flutter-app-on-the-web-852ee533a469')
+                          ),
+                          InkWell(
+                              child: new Text('TextBlob documentation',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://textblob.readthedocs.io/en/dev/')
+                          ),
+                          InkWell(
+                              child: new Text('spaCy documentation',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://spacy.io/api/doc')
+                          ),
+                          InkWell(
+                              child: new Text('seaborn documentation',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://seaborn.pydata.org/')
+                          ),
+                          InkWell(
+                              child: new Text('matplotlib documentation',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://matplotlib.org/stable/contents.html')
+                          ),
+                          InkWell(
+                              child: new Text('Gensim documentation',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://radimrehurek.com/gensim/')
+                          ),
+                          InkWell(
+                              child: new Text('MALLET documentation',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('http://mallet.cs.umass.edu/')
+                          ),
+                          InkWell(
+                              child: new Text('Developer Student Club at W&M workshop',  style: TextStyle(color: Colors.blueAccent, fontSize: 18)),
+                              onTap: () => launch('https://www.kaggle.com/clareheinbaugh/dsc-cypher-workshop-nlp-instructor')
+                          ),
                         ],
                       ))),
               Positioned(

@@ -42,11 +42,8 @@ class _LeftPanel extends State<LeftPanel> {
                           children: <Widget>[
                         Row(
                           children: [
-                            Positioned(
-                              right: 100,
-                              child: Icon(Icons.menu_book_rounded,
-                                  size: 100, color: color1),
-                            ),
+                            Icon(Icons.menu_book_rounded,
+                                  size: 40, color: color1),
                             SizedBox(width: 15.0),
                             Text('Overview',
                                 style: TextStyle(
@@ -102,7 +99,7 @@ class _LeftPanel extends State<LeftPanel> {
                         SizedBox(
                           width: double.infinity,
                           child: Text(
-                              'The Suez Canal connects the Mediterrean Sea to the Indian Ocean via a 120-mile man made channel. Global politics have played out in the Suez Canal since it was built via French colonialism in 1859. When Egypt tried to reclaim their independence and control over the canal, France, Britain, and Israel invaded and called on one of the two world superpowers, the United States, for backing. When the United States refused to aid British efforts, a potential hot spot in the Cold War between the U.S. and the Soviet Union fizzled out.\n\nThe economic importance of the canal underscores all political motives to control the canal. Approximately 10% of all shipping goes through the canal which translates to about ten billion dollars per day. When the 200,000 ton Japanese ship the Ever Given traveling from China to Europe blocked all canal traffic, experts predicted that the world would feel the economic effects of this maritime trade shutdown for long after the ship was dislodged.',
+                              'The Suez Canal connects the Mediterrean Sea to the Indian Ocean via a 120-mile man-made channel. Global politics have played out in the Suez Canal since it was built via French colonialism in 1859. When Egypt tried to reclaim their independence and control over the canal, France, Britain, and Israel invaded and called on one of the two world superpowers, the United States, for backing. When the United States refused to aid British efforts, a potential hot spot in the Cold War between the U.S. and the Soviet Union fizzled out.\n\nThe economic importance of the canal underscores all political motives to control the canal. Approximately 10% of all shipping goes through the canal which translates to about ten billion dollars per day. When the 200,000 ton Japanese ship the Ever Given traveling from China to Europe blocked all canal traffic, experts predicted that the world would feel the economic effects of this maritime trade shutdown for a long time after the ship was dislodged.\n\nThe importance of Chinese exports to the global economy was underscored through this crisis. Europe and America were reminded of their reliance on China for goods.',
                               style: TextStyle(color: textColor, fontSize: 15)),
                         ),
                             SizedBox(height: 15),

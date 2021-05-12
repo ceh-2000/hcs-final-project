@@ -40,14 +40,18 @@ class _RightPanel extends State<RightPanel> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
-                        SizedBox(
-                          width: double.infinity,
-                          child: Text('Trends Over Time',
-                              style: TextStyle(
-                                  color: textColor,
-                                  fontSize: 20,
-                                  fontWeight: FontWeight.bold)),
-                        ),
+                            Row(
+                              children: [
+                                Icon(Icons.timeline_outlined,
+                                    size: 40, color: color1),
+                                SizedBox(width: 15.0),
+                                Text('Trends Over Time',
+                                    style: TextStyle(
+                                        color: textColor,
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.bold)),
+                              ],
+                            ),
                         SizedBox(
                           height: 15.0,
                         ),

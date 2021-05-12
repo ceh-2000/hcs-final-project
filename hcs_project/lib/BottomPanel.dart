@@ -76,7 +76,7 @@ class BottomPanelState extends State<BottomPanel> {
                                 child: Text(
                               _formateDateTime(item.getDate()),
                               textAlign: TextAlign.center,
-                                  style: TextStyle(color: textColor),
+                                  style: TextStyle(color: textColor, fontSize: 15),
                             ))))))
                 .toList()));
   }
