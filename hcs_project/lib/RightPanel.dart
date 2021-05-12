@@ -89,7 +89,7 @@ class _RightPanel extends State<RightPanel> {
                         ),
                         SizedBox(
                           width: double.infinity,
-                          child: Text('Analysis',
+                          child: Text('Subjectivity is measured on a scale from 0 to 1, for which 0 is very objective and 1 is very subjective. In the graph above, the average subjectivity of tweets starts very low, suggesting that reputable news sources are publishing typical content related to the Suez Canal and its history. However, once the crisis starts and attracts the public\'s attention, the tweets become much more subjective.',
                               style: TextStyle(color: textColor, fontSize: 15)),
                         ),
                         SizedBox(
@@ -123,9 +123,9 @@ class _RightPanel extends State<RightPanel> {
                         ),
                         SizedBox(
                           width: double.infinity,
-                          child: Text('Analysis',
+                          child: Text('Polarity is a measure of text positivity. Very positive text scores closer to 1, while more negative sentiments scores closer to -1. 0 is neutral. In the plot above, the average tweet sentiment increases over time. This corresponds to tweets that start out more negative when the crisis first starts but become more positive as efforts to free the boat begin to succeed and as more jokes are made about the situation.',
                               style: TextStyle(color: textColor, fontSize: 15)),
-                        )
+                        ),
                       ]))),
             )));
   }

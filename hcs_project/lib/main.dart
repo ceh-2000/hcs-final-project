@@ -152,8 +152,8 @@ class _Main extends State<Main> {
                                   Navigator.push(
                                     context,
                                     PageRouteBuilder(
-                                        transitionDuration:
-                                            Duration(seconds: 1),
+                                        // transitionDuration:
+                                        //     Duration(seconds: 1),
                                         pageBuilder: (_, __, ___) => About()),
                                   );
                                 },
